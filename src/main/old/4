@@ -1,0 +1,76 @@
+/**
+ * Created with IntelliJ IDEA.
+ * User: сергей
+ * Date: 20.07.13
+ * Time: 14:05
+ * To change this template use File | Settings | File Templates.
+ */
+
+import java.nio.ByteBuffer;
+
+
+public class Packet {
+
+
+    private static ByteBuffer payloadBuffer;
+    private static ByteBuffer buffer;
+
+    public static int length;
+
+    public Packet()
+    {
+
+
+
+    }
+
+    public ByteBuffer GetBuffer()
+    {
+         return buffer;
+    }
+
+    public ByteBuffer getPayloadBuffer() {
+        return payloadBuffer;
+    }
+
+    public void build() {
+
+    }
+
+    public ByteBuffer getBuffer() {
+        return null;  //To change body of created methods use File | Settings | File Templates.
+    }
+
+
+    public void setAuthKeyId(byte[] bytes) {
+
+        buffer.put(bytes);
+    }
+
+    public void setMessageId() {
+
+        long unixTime = (System.currentTimeMillis() / 1000L) << 32;
+        buffer.putLong(unixTime);
+    }
+
+    public void setPayload(byte[] serialized) {
+        buffer.put(serialized );
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
+    public static void SetLength(int i) {
+
+        buffer.allocate(4).putInt(i);
+    }
+
+    public static void SetPN(int i) {
+
+        buffer.allocate(4).putInt(i);
+    }
+
+
+   /* elds.put("nonce", TLTypeInstance.Int128(false));
+    fields.put("server_nonce", TLTypeInstance.Int128(false));
+    fields.put("pq", TLTypeInstance.String(false));
+    fields.put("server_public_key_fingerprints", TLTypeInstance.Vector(TLTypeInstance.Long(false), true)); */
+}

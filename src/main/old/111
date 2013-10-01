@@ -1,0 +1,93 @@
+ // берём поток вывода и выводим туда первый аргумент
+            // заданный при вызове, адрес открытого сокета и его порт
+
+            String str = new String("3E0549828CCA27E966B301A48FECE2FC");
+            // args[0] = args[0] + "\n" + s.getInetAddress().getHostAddress() + ":" + s.getLocalPort();
+
+            s.getOutputStream().write(str.getBytes());
+
+
+            // читаем ответ
+            byte buf[] = new byte[64*1024];
+            int r = s.getInputStream().read(buf);
+            String data = new String(buf, 0, r);
+
+            byte buf2[] = new byte[r+1];
+
+            for(int i = 0; i <= r; i++)
+            {
+                buf2[i] = buf[i];
+            }
+
+            byte[] bytes;
+            //bytes = Hex.decodeHex(s.toCharArray());
+
+
+
+            //String s1 = bytesToHex(buf2);
+            //System.out.println(s1);
+
+
+            //String s2 = "user id:int first_name:string last_name:string = User";
+
+            //long ddd = CalculateCRC32ForString(s2);
+
+            //String s3 = StringToHex(String.valueOf(ddd));
+
+            //System.out.println(ddd);
+
+            String a = "getUsers Vector int = Vector User";
+            String s4 = bytesToHex(a.getBytes());
+
+
+            System.out.println(a.getBytes());
+            System.out.println(s4);
+            System.out.println(CalculateCRC32ForString(a));
+
+            String b = "MIIBCgKCAQEAwVACPi9w23mF3tBkdZz+zwrzKOaaQdr01vAbU4E1pvkfj4sqDsm6lyDONS789sVoD/xCS9Y0hkkC3gtL1tSfTlgCMOOul9lcixlEKzwKENj1Yz/s7daSan9tqw3bfUV/nqgbhGX81v/+7RFAEd+RwFnK7a+XYl9sluzHRyVVaTTveB2GazTwEfzk2DWgkBluml8OREmvfraX3bkHZJTKX4EQSjBbbdJ2ZXIsRrYOXfaA+xayEGB+8hdlLmAjbCVfaigxX0CDqWeR1yFL9kwd9P0NsZRPsmoqVwMbMu7mStFai6aIhc3nSlv8kg9qv1m6XHVQY3PnEw+QQtqSIXklHwIDAQAB";
+
+
+
+            /*String mmm = new String("C150023E2F70DB7985DED064759CFECF\n" +
+                    "0AF328E69A41DAF4D6F01B538135A6F91F8F8B2A0EC9BA9720CE352EFCF6C5680FFC424BD6348649\n" +
+                    "02DE0B4BD6D49F4E580230E3AE97D95C8B19442B3C0A10D8F5633FECEDD6926A7F6DAB0DDB7D457F\n" +
+                    "9EA81B8465FCD6FFFEED114011DF91C059CAEDAF97625F6C96ECC74725556934EF781D866B34F011\n" +
+                    "FCE4D835A090196E9A5F0E4449AF7EB697DDB9076494CA5F81104A305B6DD27665722C46B60E5DF6\n" +
+                    "80FB16B210607EF217652E60236C255F6A28315F4083A96791D7214BF64C1DF4FD0DB1944FB26A2A\n" +
+                    "57031B32EEE64AD15A8BA68885CDE74A5BFC920F6ABF59BA5C75506373E7130F9042DA922179251F");
+
+               */
+
+            //BigInteger m = new BigInteger("C150023E2F70DB7985DED064759CFECF0AF328E69A41DAF4D6F01B538135A6F91F8F8B2A0EC9BA9720CE352EFCF6C5680FFC424BD634864902DE0B4BD6D49F4E580230E3AE97D95C8B19442B3C0A10D8F5633FECEDD6926A7F6DAB0DDB7D457F9EA81B8465FCD6FFFEED114011DF91C059CAEDAF97625F6C96ECC74725556934EF781D866B34F011FCE4D835A090196E9A5F0E4449AF7EB697DDB9076494CA5F81104A305B6DD27665722C46B60E5DF680FB16B210607EF217652E60236C255F6A28315F4083A96791D7214BF64C1DF4FD0DB1944FB26A2A57031B32EEE64AD15A8BA68885CDE74A5BFC920F6ABF59BA5C75506373E7130F9042DA922179251F", 16);
+            BigInteger m = new BigInteger("C150023E2F70DB7985DED064759CFECF0AF328E69A41DAF4D6F01B538135A6F91F8F8B2A0EC9BA9720CE352EFCF6C5680FFC424BD634864902DE0B4BD6D49F4E580230E3AE97D95C8B19442B3C0A10D8F5633FECEDD6926A7F6DAB0DDB7D457F9EA81B8465FCD6FFFEED114011DF91C059CAEDAF97625F6C96ECC74725556934EF781D866B34F011FCE4D835A090196E9A5F0E4449AF7EB697DDB9076494CA5F81104A305B6DD27665722C46B60E5DF680FB16B210607EF217652E60236C255F6A28315F4083A96791D7214BF64C1DF4FD0DB1944FB26A2A57031B32EEE64AD15A8BA68885CDE74A5BFC920F6ABF59BA5C75506373E7130F9042DA922179251F", 16);
+            BigInteger n = new BigInteger("17ED48941A08F981", 16);
+            BigInteger e = new BigInteger("010001", 16);
+            //BigInteger r = new BigInteger(1, preResult);
+            String key = "C150023E2F70DB7985DED064759CFECF0AF328E69A41DAF4D6F01B538135A6F91F8F8B2A0EC9BA9720CE352EFCF6C5680FFC424BD634864902DE0B4BD6D49F4E580230E3AE97D95C8B19442B3C0A10D8F5633FECEDD6926A7F6DAB0DDB7D457F9EA81B8465FCD6FFFEED114011DF91C059CAEDAF97625F6C96ECC74725556934EF781D866B34F011FCE4D835A090196E9A5F0E4449AF7EB697DDB9076494CA5F81104A305B6DD27665722C46B60E5DF680FB16B210607EF217652E60236C255F6A28315F4083A96791D7214BF64C1DF4FD0DB1944FB26A2A57031B32EEE64AD15A8BA68885CDE74A5BFC920F6ABF59BA5C75506373E7130F9042DA922179251F";
+            //BigInteger s = r.modPow(e, m);
+
+            byte[] bbb = hexStringToByteArray(key);
+            //byte[] temp = s.toByteArray();
+
+
+            Map<String, Object> data22 = new HashMap<String, Object>();
+            data22.put("nonce", new byte[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16});
+
+
+            Packet p = new Packet();
+            p.Build();
+            ByteBuffer bb = p.GetBuffer();
+            //String modulusBase64 = b; // your Base64 string here
+            //BigInteger modulus;
+            //BigInteger pubExp = new BigInteger("65537");
+
+            //modulus = new BigInteger(1, new Base64().decode(modulusBase64.getBytes("UTF-8")));
+            //KeyFactory keyFactory = KeyFactory.getInstance("RSA");
+            //RSAPublicKeySpec ks = new RSAPublicKeySpec(n, e);
+            //RSAPublicKey pubKey = (RSAPublicKey)keyFactory.generatePublic(ks);
+
+
+            System.out.println(e);
+            String c = SHAsum(bbb);
+            //System.out.println( bytesToHex(b.getBytes()));
+            System.out.println(m);

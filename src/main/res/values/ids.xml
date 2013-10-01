@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="user_name" type="id">111</item>
+    <item name="fb_login_button" type="id">11</item>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="s1">Start</string>
+    <string name="s2">Stop</string>
+    <string name="s3">Down</string>
+    <string name="s4">Value:</string>
+    <string name="s5">Up</string>
+    <string name="app_id">495314007206058</string>
+    <string name="hello">Faktorisieren nach Pollard Rho</string>
+    <string name="e">Stop</string>
+    <string name="r">Start</string>
+    <string name="c">Clear</string>
+    <string name="l"></string>
+    <string name="cnst">Const</string>
+
+</resources>

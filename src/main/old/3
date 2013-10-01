@@ -1,0 +1,37 @@
+TL tl = new TL();
+            tl.addType("req_pq#60469778 nonce:int128 = ResPQ");
+
+            Map<String, Object> data = new HashMap<String, Object>();
+            data.put("nonce", new byte[] {5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5});
+
+
+            byte[] serialized = tl.Serialize("60469778", data, true);
+
+            Packet packet = new Packet(serialized.length + PayloadPacket.HEADER_LENGTH);
+
+
+
+            PayloadPacket payloadPacket = new PayloadPacket(packet.getPayloadBuffer());
+
+            payloadPacket.setAuthKeyId(new byte[] {0, 0, 0, 0, 0, 0, 0, 0});
+            payloadPacket.setMessageId();
+            payloadPacket.setPayload(serialized);
+
+
+            System.out.println(Helpers.bytesToHex(serialized));
+            System.out.println(packet.length);
+
+            /*packet.build();
+
+            ByteBuffer buffer = packet.getBuffer(); // Готовый ByteBuffer содержащий пакет, на который сервер отвечает :)
+            Socket s;
+            s = new Socket("localhost", 80);
+
+            s.getOutputStream().write(buffer.array());
+            // читаем ответ
+            byte buf[] = new byte[64*1024];
+            int r = s.getInputStream().read(buf);
+            String data2 = new String(buf, 0, r);
+                                     */
+            // выводим ответ в консоль
+

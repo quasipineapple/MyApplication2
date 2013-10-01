@@ -1,0 +1,15 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1375365510000 9332 4e0e62a430558d0cce3c5dee6f4709055a63a45c C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-xhdpi\ic_launcher.png
+1375365510000 845 d5c24728ba2c1436c861edc9f421cb6a9143dce5 C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-xhdpi\play.png
+1375365510000 242 b711529df54dcda69025179cc46c1effb734084a C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-xhdpi\pause.png
+1375376565086 350 95464c2a7d4591c64856a990d9a1ef8dbac0bc55 C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-v11\values.xml
+1375376565091 279 0ecb550842986251033a2dbd0348811c76a18c87 C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-sw720dp-land\values.xml
+1375365510000 17765 702fd3311475c099afc13c0b03375d917cc82018 C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
+1375365510000 5946 4bf7402bd7df466a787014bdbf5cafd9aa89c2b5 C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-hdpi\ic_launcher.png
+1375376565076 1403 4420d57cb857dc4d307356af370aa4cc0ad8972b C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values\values.xml
+1375376565010 370 67e4a954fabb6e8f9407a09acf9d626b7ff04666 C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\menu\main.xml
+1375365510000 3121 c13193c37274d333ac028cc72c260b891662d9d0 C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-mdpi\ic_launcher.png
+1375376565081 364 8be894fb392e72e5112b1ccd6bd55723c1dae4bf C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-v14\values.xml
+1375376565010 451 47ebdc527dea441956eb5a008085c22a08537a56 C:\Users\сергей\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\layout\activity_main.xml

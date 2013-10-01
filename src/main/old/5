@@ -1,0 +1,94 @@
+  /*Packet.SetLength(new byte[] {52, 0, 0, 0});
+            Packet.SetPN(new byte[]{0, 0, 0, 0});
+            Packet.setAuthKeyId(new byte[] {0, 0, 0, 0, 0, 0, 0, 0});
+            Packet.setMessageId();
+            Packet.setMessageLength(new byte[] {20, 0, 0, 0});
+            Packet.setReq_pq(new byte[]{20, 0, 0, 0});
+            Packet.setNonce(new byte[] {20, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0});
+            Packet.setCRC32(new byte[]{20, 0, 0, 0});
+
+            */
+           // payloadPacket.setPayload(serialized);
+
+
+            //System.out.println(Helpers.bytesToHex(packet.GetBuffer().array()));
+            //System.out.println(packet.length);
+
+            //packet.build();
+            //byte[] ar;
+            //String p = new String("34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1d 36 e8 51 14 00 00 00 78 97 46 60 04 91 61 61 8e 47 6b bd 82 3b 53 fb 09 1a 88 00 5d bc 15 65");
+            //p = p.replaceAll(" ","");
+            //ar = Helpers.hexStringToByteArray(p);
+            //ByteBuffer test_buffer = ByteBuffer.wrap(ar);
+
+
+             /*byte www[] = new byte[]{
+                                0x34, 0x00, 0x00, 0x00,
+                                0x00, 0x00, 0x00, 0x00,
+                                0x00, 0x00, 0x00, 0x00,
+                                0x00, 0x00, 0x00, 0x00,
+                                0x00, 0x00, 0x00, 0x00,
+                                0x1d, 0x36, (byte) 0xe8,
+                                0x51, 0x14, 0x00, 0x00,
+                                0x00, 0x78, (byte) 0x97,
+                                0x46, 0x60, 0x04, (byte)
+                                0x91, 0x61, 0x61, (byte)
+                                0x8e, 0x47, 0x6b, (byte)
+                                0xbd, (byte) 0x82, 0x3b,
+                                0x53, (byte) 0xfb, 0x09,
+                                0x1a, (byte) 0x88, 0x00,
+                                0x5d, (byte) 0xbc, 0x15,
+                                0x65};
+                        */
+                        //s.getOutputStream().write(buffer.array());
+                        //byte www[] = buffer.array();
+
+
+  //out.write("123".getBytes());
+            //out.flush();
+
+
+
+              /* public void build()
+                {
+                    buffer.put(ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN).putInt(length).array());
+                    buffer.put(ByteBuffer.allocate(4).put(conv(new byte[] {0,0,0,0})).array());
+                    buffer.put(ByteBuffer.allocate(8).put(conv(getAuthKeyId())).array());
+                    buffer.put(ByteBuffer.allocate(8).put(conv(MessageId)).array());
+                    buffer.put(ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN).putInt(MessageLength).array());
+                    buffer.put(ByteBuffer.allocate(4).put(conv(Helpers.hexStringToByteArray(body.Req_pq))).array());
+                    buffer.put(ByteBuffer.allocate(16).put(body.nonce).array());
+                    buffer.put(ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN).putInt(getCRC32()).array());
+
+                }  */
+
+                public byte[] conv(byte[] res2)
+                {
+                    for (int i = 0, j = res2.length - 1; i < j; i++, j--)
+                    {
+                        byte bb = res2[i];
+                        res2[i] = res2[j];
+                        res2[j] = bb;
+                    }
+
+                     return res2;
+                }
+
+
+
+                /* elds.put("nonce", TLTypeInstance.Int128(false));
+                    fields.put("server_nonce", TLTypeInstance.Int128(false));
+                    fields.put("pq", TLTypeInstance.String(false));
+                    fields.put("server_public_key_fingerprints", TLTypeInstance.Vector(TLTypeInstance.Long(false), true)); */
+
+
+
+                     /*TL tl = new TL();
+                                tl.addType("req_pq#60469778 nonce:int128 = ResPQ");
+
+                                Map<String, Object> data = new HashMap<String, Object>();
+                                data.put("nonce", new byte[] {5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5});
+
+
+                                byte[] serialized = tl.Serialize("60469778", data, true);
+                                */

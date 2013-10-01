@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="com.skvortsov.mtproto" />
+        <option name="packageNamePattern" value="com.skvortsov.mtproto" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="com.android.mms" />
+        <option name="packageNamePattern" value="com.android.mms" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="com.android.im" />
+        <option name="packageNamePattern" value="com.android.im" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="android.process.im" />
+        <option name="packageNamePattern" value="android.process.im" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <locale>ru</locale>
+        <target>android-17</target>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/src/main/res/layout/activity_discuss.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppBaseTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/src/main/res/layout/contact_item.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppBaseTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/src/main/res/layout/listitem_discuss.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppBaseTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/src/main/res/layout/main.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppBaseTheme</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._.DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._.DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._.DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._.DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ab_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ab_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ab_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ab_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._btn_check_off_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._btn_check_off_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._btn_check_off_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._btn_check_off_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._btn_check_off_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._btn_check_off_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._btn_check_off_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._btn_check_off_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._btn_check_on_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._btn_check_on_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._btn_check_on_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._btn_check_on_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._btn_check_on_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._btn_check_on_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._btn_check_on_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._btn_check_on_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._btn_send_location_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._btn_send_location_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._btn_send_location_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._btn_send_location_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._btn_send_location_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._btn_send_location_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._btn_send_location_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._btn_send_location_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._compose_bubble_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._compose_bubble_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._compose_bubble_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._compose_bubble_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._compose_bubble_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._compose_bubble_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._compose_bubble_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._compose_bubble_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._compose_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._compose_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._compose_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._compose_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._dialogs_badge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._dialogs_badge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._dialogs_badge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._dialogs_badge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._dialogs_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._dialogs_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._dialogs_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._dialogs_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._dialogs_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._dialogs_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._dialogs_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._dialogs_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._dialogs_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._dialogs_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._dialogs_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._dialogs_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._fastscroll_thumb_default_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._fastscroll_thumb_default_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._fastscroll_thumb_default_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._fastscroll_thumb_default_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._fastscroll_thumb_pressed_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._fastscroll_thumb_pressed_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._fastscroll_thumb_pressed_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._fastscroll_thumb_pressed_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._group_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._group_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._group_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._group_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._group_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._group_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._group_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._group_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._group_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._group_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._group_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._group_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._group_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._group_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._group_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._group_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._group_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._group_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._group_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._group_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._group_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._group_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._group_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._group_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._group_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._group_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._group_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._group_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._group_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._group_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._group_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._group_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/._hdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._header_shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._header_shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._header_shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._header_shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_compose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_compose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_compose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_compose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_delete_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_delete_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_delete_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_delete_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_done_gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_done_gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_done_gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_done_gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_other.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_other.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_other.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_other.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_ab_share_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_ab_share_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_ab_share_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_ab_share_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_attach_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_attach_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_attach_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_attach_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_attach_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_attach_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_attach_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_attach_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_attach_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_attach_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_attach_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_attach_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_attach_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_attach_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_attach_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_attach_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_auth_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_auth_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_auth_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_auth_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_msg_in_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_msg_in_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_msg_in_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_msg_in_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_msg_out_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_msg_out_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_msg_out_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_msg_out_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_msg_panel_hide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_msg_panel_hide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_msg_panel_hide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_msg_panel_hide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_msg_panel_kb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_msg_panel_kb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_msg_panel_kb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_msg_panel_kb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_msg_panel_smiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_msg_panel_smiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_msg_panel_smiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_msg_panel_smiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_profile_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_profile_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_profile_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_profile_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_profile_send_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_profile_send_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_profile_send_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_profile_send_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_send_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_send_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_send_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_send_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_backspace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_backspace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_backspace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_backspace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_backspace_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_backspace_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_backspace_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_backspace_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_bell_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_bell_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_bell_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_bell_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_car_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_car_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_car_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_car_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_flower_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_flower_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_flower_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_flower_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_grid_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_grid_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_grid_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_grid_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_recent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_recent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_recent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_recent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_recent_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_recent_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_recent_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_recent_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_smiles_smile_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_smiles_smile_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_smiles_smile_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_smiles_smile_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._ic_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._ic_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._ic_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._ic_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._location_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._location_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._location_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._location_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._map_dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._map_dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._map_dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._map_dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._map_pin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._map_pin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._map_pin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._map_pin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/._mdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_check_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_check_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_check_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_check_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_day_box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_day_box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_day_box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_day_box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_halfcheck_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_halfcheck_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_halfcheck_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_halfcheck_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_in_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_in_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_in_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_in_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_in_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_in_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_in_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_in_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_in_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_in_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_in_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_in_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_out_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_out_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_out_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_out_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_out_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_out_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_out_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_out_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_out_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_out_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_out_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_out_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._msg_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._msg_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._msg_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._msg_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._photo_edit_spinner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._photo_edit_spinner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._photo_edit_spinner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._photo_edit_spinner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._popup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._popup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._popup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._popup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/hdpi/._user_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/mdpi/._user_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xhdpi/._user_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/xxhdpi/._user_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/._xhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/__MACOSX/._xxhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/AES_IGE.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/domain/project/Book.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/domain/project/Constructor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/Div.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/Helpers.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/HexStringConverter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/MapUtil$MapAdder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/MapUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/Message.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/domain/project/Method.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/apk/MyApplication-debug-unaligned.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/MyApplication-debug.ap_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/MyApplication-debug.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/NotImplementedYet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/Packet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/domain/project/Param.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/PayloadPacket.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/PingMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/factor/PollardRho.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R$dimen.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R$menu.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R$style.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/example/myapplication/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/SerializationUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/StringTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TL.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TLAbstractInstanceType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TLBytesInstanceType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TLLongInstanceType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TLMapPair.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TLStringInstanceType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TLTypeConstructor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TLTypeInstance.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/TLVectorInstanceType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/Transport.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ab_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/android-support-v4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/libs/android-support-v4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/android3d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/android_happy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/btn_check_off_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/btn_check_off_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/btn_check_on_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/btn_check_on_pressed_holo_light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/btn_send_location_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/btn_send_location_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-xhdpi/bubble_green.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-xhdpi/bubble_yellow.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_button_check_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_button_check_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_button_grey_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_button_grey_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-xhdpi/com_facebook_button_grey_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_button_grey_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_button_grey_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-xhdpi/com_facebook_button_grey_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_button_grey_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_button_grey_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-ldpi/com_facebook_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-xhdpi/com_facebook_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-ldpi/com_facebook_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_list_divider.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_list_section_header_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_loginbutton_blue_focused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_loginbutton_blue_focused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-xhdpi/com_facebook_loginbutton_blue_focused.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_loginbutton_blue_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_loginbutton_blue_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-xhdpi/com_facebook_loginbutton_blue_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_loginbutton_blue_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_loginbutton_blue_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-xhdpi/com_facebook_loginbutton_blue_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-hdpi/com_facebook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable-xhdpi/com_facebook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_picker_list_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_picker_list_longpressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_picker_list_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_picker_list_selector_disabled.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_place_default_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_profile_default_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_profile_picture_blank_portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_profile_picture_blank_square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/compose_bubble_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/compose_bubble_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/compose_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/dialogs_badge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/dialogs_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/dialogs_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/dialogs_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/fastscroll_thumb_default_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/fastscroll_thumb_pressed_holo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/google-play-services.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/greenstar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/group_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/group_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/group_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/group_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/group_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/group_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/group_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/group_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gson-2.2.4-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gson-2.2.4-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gson-2.2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/header_shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_compose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_delete_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_done_gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_other.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_ab_share_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_add_member.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_attach_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_attach_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_attach_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_attach_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_auth_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/ic_launcher-web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/res/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_allhide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_browser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_calculator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_contacts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_email_generic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_google_talk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_im.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_maps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_musicplayer_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_phone_dialer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_sms_mms.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_video_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_voicedial.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_voicesearch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/ic_launcher_youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_menu_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_menu_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_menu_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_msg_in_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_msg_out_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_msg_panel_hide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_msg_panel_kb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_msg_panel_smiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_profile_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_profile_send_message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_send_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_backspace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_backspace_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_bell_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_car_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_flower_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_grid_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_recent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_recent_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_smiles_smile_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/location_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/libs/loremipsum-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/map_dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/map_pin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_check_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_day_box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_halfcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_halfcheck_photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-xhdpi/msg_in.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_in.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_in_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_in_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-xhdpi/msg_in_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_in_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-xhdpi/msg_out.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_out.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_out_btn_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_out_btn_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/drawable-xhdpi/msg_out_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_out_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/msg_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-xhdpi/pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/photo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/photo2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/photo3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/photo4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/photo5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/photo6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/photo7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/drawable-xhdpi/photo8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/photo_edit_spinner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-xhdpi/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/popup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/qwe.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/redstar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/assets/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/stat_sample.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/debug/com/tl/str_to_.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/user_placeholder_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/bin/classes/com/warting/bubbles/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/111" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/222" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AES_IGE.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/AccessToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/AccessTokenSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/manifests/debug/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/AppConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/android/AsyncFacebookRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AuthKeyGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/AuthorizationClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Book.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/BookManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/gen/com/warting/bubbles/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/gen/com/example/Pollard/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/manifests/debug/gen/com/example/myapplication/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/source/buildConfig/debug/com/example/myapplication/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/gen/com/facebook/android/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/gen/com/example/samples_from_books/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/CacheableRequestBatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Constructor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/ConstructorManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/src/com/example/samples_from_books/ContactItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/ContactItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/CryptoUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Data.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/android/DialogError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/src/com/warting/bubbles/DiscussArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/DiscussArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/Div.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/EditContactActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessageManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/android/Facebook.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/FacebookAuthorizationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/FacebookDialogException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/android/FacebookError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/FacebookException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/FacebookFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/FacebookGraphObjectException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/FacebookOperationCanceledException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/FacebookRequestError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/FacebookSdkVersion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/FacebookServiceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/src/com/example/Pollard/FactorActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/android/FbDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/FileLruCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/FriendController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/types/FriendInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/FriendPickerFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/GetPacket.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/GetTokenClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/GraphLocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/GraphMultiResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/GraphObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/GraphObjectAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/GraphObjectCursor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/GraphObjectList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/GraphObjectPagingLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/GraphPlace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/GraphUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/HelloBubbles.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/src/com/warting/bubbles/HelloBubblesActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Helpers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/HexStringConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/HttpMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/IAppManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/INotificationServiceManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/ISocketOperator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/IUpdateData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/ImageDownloader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/ImageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/ImageResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/ImageResponseCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/JsonUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/LegacyHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/ListContactActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/LocalStorageHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/LoggingBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/LoginActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/LoginButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/gen/com/warting/bubbles/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/gen/com/example/Pollard/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/manifests/debug/gen/com/example/myapplication/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/gen/com/facebook/android/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/gen/com/example/samples_from_books/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/MapUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Message.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/Message.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/MessageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/types/MessageInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/MessageManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/MessageReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Method.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/MsgManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_container.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_containerManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/src/com/example/samples_from_books/MyActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/MyActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/MyApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/NativeProtocol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/NonCachingTokenCachingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/NotImplementedYet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/NotificationService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/src/com/warting/bubbles/OneComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/OneComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/OpenGraphAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Packet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/Packet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Param.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/PayloadPacket.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/PickerFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/PingMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/PlacePickerFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/Pollard.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/src/com/example/Pollard/PollardRho.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PollardRho.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/ProfilePictureView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/model/PropertyName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/gen/com/warting/bubbles/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/gen/com/example/Pollard/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/manifests/debug/gen/com/example/myapplication/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/source/r/debug/com/example/myapplication/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/gen/com/facebook/android/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/gen/com/example/samples_from_books/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/RequestAsyncTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/RequestBatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/Response.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/types/STATUS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SerializationUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/ServerProtocol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/Session.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Session.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/SessionAuthorizationType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/SessionDefaultAudience.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/SessionLoginBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SessionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/SessionState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/SessionTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/Settings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/SharedPreferencesTokenCachingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SignUp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/SimpleGraphObjectCursor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/SocketData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/SocketOperator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/StringTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TLAbstractInstanceType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TLBytesInstanceType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TLLongInstanceType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TLMapPair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TLStringInstanceType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TLTypeConstructor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TLTypeInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/TLVectorInstanceType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/TestSession.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/TokenCachingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/UTF8.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/UiLifecycleHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/UrlRedirectCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/UserSettingsFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/android/Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/Utility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/Validate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/WatchData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/WatchSocket.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/WebDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/WorkData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/widget/WorkQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/XMLHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/layout/activity_discuss.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_discuss.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/activity_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/add_new_friend.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/ant.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/ant.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/values/attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/source/buildConfig/buildConfig.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_button_check.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_friendpickerfragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_login_activity_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_loginbutton_blue.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_loginbutton_silver.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_picker_activity_circle_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_picker_checkbox.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_picker_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_picker_item_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_picker_list_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_picker_list_section_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_picker_list_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_picker_list_selector_background_transition.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_picker_search_box.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_picker_title_bar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_picker_title_bar_stub.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_picker_top_button.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_placepickerfragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_placepickerfragment_list_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_top_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_top_button.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/layout/com_facebook_usersettingsfragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/contact_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/layout/custom_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/manifests/debug/debug.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/aidl/debug/dependency.store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values-sw600dp/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values-sw720dp-land/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/facebook.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/first.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/friend_list_screen.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values/ids.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/aidl/debug/inputs.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/dex/debug/inputs.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/mergeAssets/debug/inputs.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/mergeResources/debug/inputs.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/raw/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/list_screen.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/layout/listitem_discuss.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/listitem_discuss.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/local.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/local.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/local_service_controller.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/login_screen.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/res/layout/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/layout/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/main3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/mergeAssets/debug/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/mergeResources/debug/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/messaging_screen.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/notes_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/aidl/debug/outputs.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/dex/debug/outputs.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/mergeAssets/debug/outputs.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/incremental/mergeResources/debug/outputs.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/src/com/facebook/internal/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/qq.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/qwe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/source/r/r.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/samples_from_books.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/layout/sign_up_screen.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/old/str_to_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloBubbles/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pollard/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/values-es/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/values-he/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/values-iw/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples_from_books/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/facebook/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values-v11/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values-v14/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/values/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/values-v11/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/res/all/debug/values-v14/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="MyApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MyApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="IMService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="153" column="65" selection-start="5014" selection-end="5062" vertical-scroll-proportion="0.0" vertical-offset="1401" max-vertical-offset="3600">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISocketOperator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/ISocketOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="18" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetPacket.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/old/GetPacket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="64" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/android/os/AsyncTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="431" column="25" selection-start="16899" selection-end="16899" vertical-scroll-proportion="0.0" vertical-offset="5803" max-vertical-offset="9630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MTPConnection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="25" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1755">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacketReader.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="45" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.40837696" vertical-offset="909" max-vertical-offset="1560">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#941#1068#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Packet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Packet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="11" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacketManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="25" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EncryptedMessageManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessageManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="33" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketOperator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/SocketOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="25" selection-start="2494" selection-end="2494" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1785">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/FriendController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SignUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/XMLHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Constructor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Param.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PollardRho.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/SocketOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:gson-2.2.4)" />
+      <problem id="unused-library(library:project:loremipsum-1.01)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="old" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtp_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="communication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.skvortsov.mtproto.interfaces" />
+      <recent name="com.skvortsov.mtproto.services" />
+      <recent name="com.skvortsov.mtproto.communication" />
+      <recent name="com.skvortsov.mtproto.engine" />
+      <recent name="com.skvortsov.mtproto.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\res\layout" />
+      <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\java\com\skvortsov\mtproto" />
+      <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\java\com\skvortsov\mtproto\engine" />
+      <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\java\com\skvortsov\mtproto\app" />
+      <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\java\com\skvortsov\mtproto\interfaces" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.skvortsov.mtproto.communication" />
+      <recent name="com.skvortsov.mtproto" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.skvortsov.mtproto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\old" />
+      <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.main">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="main" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="AVD_for_Nexus_4_by_Google" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.main" />
+    </list>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\сергей\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="" />
+      <created>1376214410350</created>
+      <updated>1376214410350</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31561998" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33655393" sideWeight="0.5003997" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33655393" sideWeight="0.49960032" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5426731" sideWeight="0.49959967" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940048" sideWeight="0.6714976" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21582733" sideWeight="0.66344607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32693845" sideWeight="0.6006441" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2090909" sideWeight="0.5665529" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67235494" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4334471" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.612628" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.12690355" vertical-offset="0" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#798#925#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/old/WatchSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="41" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1260">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/old/WatchData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/old/WorkData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/old/SocketData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="431" column="25" selection-start="16899" selection-end="16899" vertical-scroll-proportion="0.0" vertical-offset="5803" max-vertical-offset="9630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/old/GetPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="64" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/ISocketOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/SocketOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="25" selection-start="2494" selection-end="2494" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="65" selection-start="5014" selection-end="5062" vertical-scroll-proportion="0.0" vertical-offset="1401" max-vertical-offset="3600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="25" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Packet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="11" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="45" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.40837696" vertical-offset="909" max-vertical-offset="1560">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#941#1068#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (main)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android 4.3 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

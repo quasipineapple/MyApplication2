@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            />
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" android:id="@+id/Eingabe">
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <Button android:layout_height="wrap_content" android:text="@string/r" android:id="@+id/startClick" android:layout_width="90dp"></Button>
+        <Button android:layout_height="wrap_content" android:text="@string/e" android:id="@+id/stopClick" android:layout_width="85dp"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/clearClick" android:text="@string/c" android:layout_width="88dp"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/constClick" android:text="@string/cnst" android:layout_width="match_parent"></Button>
+    </LinearLayout>
+
+    <EditText android:layout_width="match_parent" android:inputType="textMultiLine" android:layout_height="match_parent" android:id="@+id/Ausgabe" android:editable="false" android:gravity="top" android:text="@string/l"></EditText>
+
+</LinearLayout> 

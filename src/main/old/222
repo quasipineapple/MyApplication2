@@ -1,0 +1,89 @@
+package by.muna.mtproto;
+
+import by.muna.mtproto.tl.TL;
+import by.muna.mtproto.tl.TLObject;
+import by.muna.util.IntUtil;
+import by.muna.util.MapUtil;
+import by.muna.util.OutputUtil;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        new Main();
+    }
+
+    private MTClient client;
+    private AuthKeyMTClientBinding authKeyBinding;
+    private BindedMTClient bindedClient;
+
+    private Main() {
+        byte[] authKey = null;
+
+        this.client = new MTClient("95.142.192.65", 80);
+
+        if (authKey != null) {
+            this.encryptedSession(authKey);
+        } else {
+            this.client.createAuthKey(new IAuthKeyListener() {
+                public void onCreated(byte[] authKey) {
+                    OutputUtil.println("authKey generated:", authKey);
+                    Main.this.encryptedSession(authKey);
+                }
+
+                public void onError(Object error) {
+                    OutputUtil.println("authkey create error:", error);
+                }
+            });
+        }
+    }
+
+    private void encryptedSession(byte[] authKey) {
+        this.authKeyBinding = this.client.createAuthKeyBinding(authKey);
+        this.bindedClient = this.authKeyBinding.createBindedClient(MTClient.getRandom().nextLong());
+
+        this.ping();
+    }
+
+    private void ping() {
+        this.bindedClient.ping(new IPong() {
+            public void onPong() {
+                OutputUtil.println("pong!");
+
+                Main.this.contest();
+            }
+        });
+    }
+
+    private void contest() {
+        TL tl = this.client.getTL();
+
+        this.bindedClient.send(
+            tl.createObject("contest.saveDeveloperInfo#9a5f6e95",
+                MapUtil.createObjectHashMap(
+                ).add("vk_id", 8521583
+                ).add("name", "Александр Рулёв"
+                ).add("phone_number", "+375297929637"
+                ).add("age", 19
+                ).add("city", "Брест"
+                ).finish()
+            ),
+
+            new IMTClientMessageListener() {
+                public void onReply(TLObject data) {
+                    if (data.getType().equals("boolTrue#997275b5")) {
+                        OutputUtil.println(
+                            "contest: saved!",
+                            System.currentTimeMillis(),
+                            IntUtil.toHex(Main.this.authKeyBinding.getAuthKeyId())
+                        );
+                    } else {
+                        OutputUtil.println("contest: false.", System.currentTimeMillis());
+                    }
+                }
+
+                public void onError(int errorCode, String errorMessage) {
+                    OutputUtil.println("RPC error", errorCode, errorMessage);
+                }
+            }
+        );
+    }
+}
