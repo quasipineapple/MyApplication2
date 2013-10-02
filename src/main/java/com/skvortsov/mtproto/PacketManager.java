@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class PacketManager {
 
-    private static String TAG = "PacketBuilder";
+    private static String TAG = "PacketManager";
 
     public static Packet parse (byte[] answer){
         Packet p = new Packet();

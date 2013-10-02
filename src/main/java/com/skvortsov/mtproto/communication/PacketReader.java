@@ -84,8 +84,22 @@ public class PacketReader {
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
+            if(!done){
+                notifyConnectionError(e);
+            }
         }
+
+
+    }
+
+    private void notifyConnectionError(IOException e) {
+
+        done = true;
+        e.printStackTrace();
+        connection.shutdown();
+
+        //TODO: Notify connection listeners of the error.
 
 
     }
