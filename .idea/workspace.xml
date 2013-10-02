@@ -77,9 +77,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -908,7 +905,11 @@
       <created>1380724723920</created>
       <updated>1380724723920</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="shutdown for packet writer and reader">
+      <created>1380740665260</created>
+      <updated>1380740665260</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
