@@ -76,112 +76,8 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/111" afterPath="$PROJECT_DIR$/src/main/old/111" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/222" afterPath="$PROJECT_DIR$/src/main/old/222" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/3" afterPath="$PROJECT_DIR$/src/main/old/3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/4" afterPath="$PROJECT_DIR$/src/main/old/4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/5" afterPath="$PROJECT_DIR$/src/main/old/5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AES_IGE.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AES_IGE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pollard/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Pollard/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/manifests/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/manifests/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples_from_books/AndroidManifest.xml" afterPath="$PROJECT_DIR$/samples_from_books/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AuthKeyGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AuthKeyGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/BookManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/BookManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Constructor.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Constructor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/ConstructorManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/ConstructorManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples_from_books/src/com/example/samples_from_books/ContactItem.java" afterPath="$PROJECT_DIR$/samples_from_books/src/com/example/samples_from_books/ContactItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/ContactItem.java" afterPath="$PROJECT_DIR$/src/main/old/ContactItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/CryptoUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/CryptoUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Data.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Data.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/Div.java" afterPath="$PROJECT_DIR$/src/main/old/Div.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/EditContactActivity.java" afterPath="$PROJECT_DIR$/src/main/old/EditContactActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessageManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessageManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pollard/src/com/example/Pollard/FactorActivity.java" afterPath="$PROJECT_DIR$/Pollard/src/com/example/Pollard/FactorActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/GetPacket.java" afterPath="$PROJECT_DIR$/src/main/old/GetPacket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Helpers.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Helpers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/HexStringConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/HexStringConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/LICENSE" afterPath="$PROJECT_DIR$/libs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/ListContactActivity.java" afterPath="$PROJECT_DIR$/src/main/old/ListContactActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/LocalStorageHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/LocalStorageHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/Main.java" afterPath="$PROJECT_DIR$/src/main/old/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/MapUtil.java" afterPath="$PROJECT_DIR$/src/main/old/MapUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/Message.java" afterPath="$PROJECT_DIR$/src/main/old/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/MessageManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/MessageManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/MessageReceiver.java" afterPath="$PROJECT_DIR$/src/main/old/MessageReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Method.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Method.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/MsgManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/MsgManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_container.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_container.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_containerManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_containerManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples_from_books/src/com/example/samples_from_books/MyActivity.java" afterPath="$PROJECT_DIR$/samples_from_books/src/com/example/samples_from_books/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/MyActivity.java" afterPath="$PROJECT_DIR$/src/main/old/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/MyApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/MyApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/NotImplementedYet.java" afterPath="$PROJECT_DIR$/src/main/old/NotImplementedYet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/NotificationService.java" afterPath="$PROJECT_DIR$/src/main/old/NotificationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Packet.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Packet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/Packet.java" afterPath="$PROJECT_DIR$/src/main/old/Packet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java" />
+    <list default="true" id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Param.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Param.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/PayloadPacket.java" afterPath="$PROJECT_DIR$/src/main/old/PayloadPacket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/PingMessage.java" afterPath="$PROJECT_DIR$/src/main/old/PingMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pollard/src/com/example/Pollard/PollardRho.java" afterPath="$PROJECT_DIR$/Pollard/src/com/example/Pollard/PollardRho.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PollardRho.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PollardRho.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/source/r/debug/com/example/myapplication/R.java" afterPath="$PROJECT_DIR$/build/source/r/debug/com/example/myapplication/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SerializationUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SerializationUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Session.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Session.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SessionManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SessionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/SocketData.java" afterPath="$PROJECT_DIR$/src/main/old/SocketData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/StringTest.java" afterPath="$PROJECT_DIR$/src/main/old/StringTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TL.java" afterPath="$PROJECT_DIR$/src/main/old/TL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TLAbstractInstanceType.java" afterPath="$PROJECT_DIR$/src/main/old/TLAbstractInstanceType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TLBytesInstanceType.java" afterPath="$PROJECT_DIR$/src/main/old/TLBytesInstanceType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TLLongInstanceType.java" afterPath="$PROJECT_DIR$/src/main/old/TLLongInstanceType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TLMapPair.java" afterPath="$PROJECT_DIR$/src/main/old/TLMapPair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TLStringInstanceType.java" afterPath="$PROJECT_DIR$/src/main/old/TLStringInstanceType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TLTypeConstructor.java" afterPath="$PROJECT_DIR$/src/main/old/TLTypeConstructor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TLTypeInstance.java" afterPath="$PROJECT_DIR$/src/main/old/TLTypeInstance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/TLVectorInstanceType.java" afterPath="$PROJECT_DIR$/src/main/old/TLVectorInstanceType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/UTF8.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/UTF8.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/WatchData.java" afterPath="$PROJECT_DIR$/src/main/old/WatchData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/WatchSocket.java" afterPath="$PROJECT_DIR$/src/main/old/WatchSocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/WorkData.java" afterPath="$PROJECT_DIR$/src/main/old/WorkData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pollard/build.xml" afterPath="$PROJECT_DIR$/Pollard/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples_from_books/build.xml" afterPath="$PROJECT_DIR$/samples_from_books/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples_from_books/res/layout/custom_layout.xml" afterPath="$PROJECT_DIR$/samples_from_books/res/layout/custom_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/first.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/first.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/ids.xml" afterPath="$PROJECT_DIR$/src/main/res/values/ids.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pollard/res/layout/main.xml" afterPath="$PROJECT_DIR$/Pollard/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples_from_books/res/layout/main.xml" afterPath="$PROJECT_DIR$/samples_from_books/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/main3.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/main3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/build/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/build/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pollard/proguard-project.txt" afterPath="$PROJECT_DIR$/Pollard/proguard-project.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples_from_books/proguard-project.txt" afterPath="$PROJECT_DIR$/samples_from_books/proguard-project.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/qq.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/qq.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/qwe.java" afterPath="$PROJECT_DIR$/src/main/old/qwe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/old/str_to_.java" afterPath="$PROJECT_DIR$/src/main/old/str_to_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pollard/res/values/strings.xml" afterPath="$PROJECT_DIR$/Pollard/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples_from_books/res/values/strings.xml" afterPath="$PROJECT_DIR$/samples_from_books/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -246,19 +142,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IMService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="65" selection-start="5014" selection-end="5062" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="4305">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MTPConnection.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2565">
+            <state line="81" column="26" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2565">
               <folding />
             </state>
           </provider>
@@ -267,7 +154,16 @@
       <file leaf-file-name="PacketReader.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="8" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.64467007" vertical-offset="969" max-vertical-offset="1605">
+            <state line="50" column="8" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.2318105" vertical-offset="403" max-vertical-offset="1620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacketWriter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -276,7 +172,7 @@
       <file leaf-file-name="ConstructorManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/ConstructorManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="10" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -285,7 +181,7 @@
       <file leaf-file-name="EncryptedMessage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1410">
+            <state line="12" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -294,7 +190,7 @@
       <file leaf-file-name="PacketManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="19" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -303,7 +199,7 @@
       <file leaf-file-name="AppConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="20" column="5" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -312,7 +208,7 @@
       <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="23" selection-start="2782" selection-end="2782" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="4575">
+            <state line="81" column="23" selection-start="2782" selection-end="2782" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="5175">
               <folding />
             </state>
           </provider>
@@ -322,15 +218,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessageManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="33" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="750">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketOperator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/SocketOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="25" selection-start="2494" selection-end="2494" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2115">
               <folding />
             </state>
           </provider>
@@ -422,16 +309,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -584,12 +467,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -689,6 +576,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -714,19 +614,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -929,7 +816,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5120773" sideWeight="0.49960032" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33494365" sideWeight="0.49960032" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5426731" sideWeight="0.49959967" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940048" sideWeight="0.4299517" order="1" side_tool="false" content_ui="tabs" />
@@ -944,6 +830,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32693845" sideWeight="0.6006441" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33494365" sideWeight="0.49960032" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -951,13 +838,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2090909" sideWeight="0.5665529" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -990,22 +877,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/old/WorkData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/old/SocketData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="431" column="25" selection-start="16899" selection-end="16899" vertical-scroll-proportion="0.0" vertical-offset="5803" max-vertical-offset="9630">
@@ -1069,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/ConstructorManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
@@ -1097,9 +961,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="26" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="8" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.64467007" vertical-offset="969" max-vertical-offset="1605">
+        <state line="50" column="8" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.2318105" vertical-offset="403" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>

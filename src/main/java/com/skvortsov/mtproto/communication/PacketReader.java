@@ -48,6 +48,7 @@ public class PacketReader {
 
     public void startup() throws Exception {
 
+
         connectionSemaphore = new Semaphore(1);
 
         readerThread.start();
