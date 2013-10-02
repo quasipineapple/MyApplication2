@@ -36,21 +36,36 @@ public class MTPConnection {
     int connectionCounterValue = connectionCounter.getAndIncrement();
     public boolean connected = false;
 
-    public void connect() throws IOException {
+    public void connect() throws Exception {
+
+        connectUsingConfiguration(config);
+
+    }
+
+    private void connectUsingConfiguration(ConnectionConfig config) throws Exception {
 
         this.host = config.getHost();
         this.port = config.getPort();
-        this.socket = new Socket(host, port);
+
+        try {
+            this.socket = new Socket(host, port);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         initConnection();
+
     }
 
     public void sendPacket(){
 
     }
 
-    private void initConnection(){
+    private void initConnection() throws Exception {
 
         boolean isFirstInitialization = packetReader == null || packetWriter == null;
+
+        initReaderAndWriter();
 
         if(isFirstInitialization){
             packetWriter = new PacketWriter(this);
@@ -61,7 +76,11 @@ public class MTPConnection {
             packetWriter.init();
         }
 
-        initReaderAndWriter();
+        packetWriter.startup();
+
+        packetReader.startup();
+
+
     }
 
     private void initReaderAndWriter() {
@@ -117,5 +136,39 @@ public class MTPConnection {
 
     public void setSocket(Socket socket) {
         this.socket = socket;
+    }
+
+    protected void shutdown() {
+
+        connected = false;
+        packetReader.shutdown();
+        packetWriter.shutdown();
+
+        try {
+            Thread.sleep(150);
+        } catch (Exception e) {
+            //e.printStackTrace();
+        }
+
+        if(reader != null){
+            try {
+                reader.close();
+            } catch (Throwable ignore){}
+            reader = null;
+        }
+
+        if(writer != null){
+            try {
+                writer.close();
+            } catch (Throwable ignore){}
+            writer = null;
+        }
+
+        try {
+            socket.close();
+        } catch (Exception e) {
+            //e.printStackTrace();
+        }
+
     }
 }
