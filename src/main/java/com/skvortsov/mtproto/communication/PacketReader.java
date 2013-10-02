@@ -1,5 +1,10 @@
 package com.skvortsov.mtproto.communication;
 
+import android.text.Editable;
+import android.text.method.KeyListener;
+import android.view.KeyEvent;
+import android.view.View;
+
 import com.skvortsov.mtproto.EncryptedMessageManager;
 import com.skvortsov.mtproto.Packet;
 import com.skvortsov.mtproto.PacketManager;
@@ -29,7 +34,6 @@ public class PacketReader {
         init();
     }
 
-
     public void init(){
 
         connected = false;
@@ -48,11 +52,6 @@ public class PacketReader {
 
 
     public void startup() throws Exception {
-
-
-
-
-
 
         connectionSemaphore = new Semaphore(1);
 
@@ -73,10 +72,6 @@ public class PacketReader {
             connection.connected = true;
         }
     }
-
-
-
-
 
     private void parsePackets(Thread thread){
 
@@ -117,6 +112,11 @@ public class PacketReader {
     }
 
     private void processPacket(Packet packet) {
+
+        if(packet == null){
+          return;
+        }
+
 
 
 

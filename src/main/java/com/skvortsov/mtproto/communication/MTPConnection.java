@@ -85,6 +85,7 @@ public class MTPConnection {
     }
 
     private void initReaderAndWriter() {
+
         try {
             reader = socket.getInputStream();
             writer = socket.getOutputStream();

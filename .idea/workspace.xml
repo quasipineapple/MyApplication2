@@ -77,8 +77,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -146,7 +147,7 @@
       <file leaf-file-name="MTPConnection.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="25" selection-start="3007" selection-end="3007" vertical-scroll-proportion="0.0" vertical-offset="1828" max-vertical-offset="2565">
+            <state line="142" column="19" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0" vertical-offset="1963" max-vertical-offset="2580">
               <folding />
             </state>
           </provider>
@@ -155,16 +156,28 @@
       <file leaf-file-name="PacketReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="0" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0" vertical-offset="1179" max-vertical-offset="1800">
+            <state line="118" column="0" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0" vertical-offset="1209" max-vertical-offset="1800">
+              <folding>
+                <element signature="e#1068#1195#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="60" selection-start="472" selection-end="472" vertical-scroll-proportion="0.32994923" vertical-offset="0" max-vertical-offset="591">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PacketWriter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PacketWriter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="8" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.822335" vertical-offset="774" max-vertical-offset="1395">
+            <state line="87" column="5" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
@@ -224,15 +237,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncryptedMessageManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessageManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="750">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -269,7 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/FriendController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SignUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/XMLHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Constructor.java" />
@@ -282,9 +285,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
       </list>
     </option>
   </component>
@@ -900,7 +904,11 @@
       <created>1380710615179</created>
       <updated>1380710615179</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="shutdown for packet writer and reader">
+      <created>1380724723920</created>
+      <updated>1380724723920</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1000,19 +1008,13 @@
     <MESSAGE value="main" />
     <MESSAGE value="777" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="shutdown for packet writer and reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="shutdown for packet writer and reader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/old/GetPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="64" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/ISocketOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="18" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -1097,23 +1099,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0" vertical-offset="1179" max-vertical-offset="1800">
+        <state line="87" column="5" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="25" selection-start="3007" selection-end="3007" vertical-scroll-proportion="0.0" vertical-offset="1828" max-vertical-offset="2565">
+        <state line="142" column="19" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0" vertical-offset="1963" max-vertical-offset="2580">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="8" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.822335" vertical-offset="774" max-vertical-offset="1395">
+        <state line="118" column="0" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0" vertical-offset="1209" max-vertical-offset="1800">
+          <folding>
+            <element signature="e#1068#1195#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="60" selection-start="472" selection-end="472" vertical-scroll-proportion="0.32994923" vertical-offset="0" max-vertical-offset="591">
           <folding />
         </state>
       </provider>
