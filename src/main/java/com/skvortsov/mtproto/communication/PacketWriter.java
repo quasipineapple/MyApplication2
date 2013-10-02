@@ -91,4 +91,8 @@ public class PacketWriter {
 
 
     }
+
+    public void shutdown() {
+
+    }
 }
