@@ -86,4 +86,9 @@ public class PacketWriter {
 
         return  packet;
     }
+
+    public void startup() {
+
+
+    }
 }
