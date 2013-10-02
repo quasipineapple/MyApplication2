@@ -77,6 +77,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -153,7 +154,7 @@
       <file leaf-file-name="PacketReader.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="0" selection-start="2267" selection-end="2267" vertical-scroll-proportion="0.8764805" vertical-offset="637" max-vertical-offset="1710">
+            <state line="75" column="4" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.47038916" vertical-offset="637" max-vertical-offset="1725">
               <folding />
             </state>
           </provider>
@@ -821,7 +822,11 @@
       <created>1380707019781</created>
       <updated>1380707019781</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="zzz">
+      <created>1380707192068</created>
+      <updated>1380707192068</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1031,7 +1036,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2267" selection-end="2267" vertical-scroll-proportion="0.8764805" vertical-offset="637" max-vertical-offset="1710">
+        <state line="75" column="4" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.47038916" vertical-offset="637" max-vertical-offset="1725">
           <folding />
         </state>
       </provider>
