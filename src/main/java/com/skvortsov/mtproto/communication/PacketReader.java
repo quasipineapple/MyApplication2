@@ -50,6 +50,7 @@ public class PacketReader {
 
 
 
+
         connectionSemaphore = new Semaphore(1);
 
         readerThread.start();
