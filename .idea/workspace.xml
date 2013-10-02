@@ -154,7 +154,7 @@
       <file leaf-file-name="PacketReader.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="8" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.2571912" vertical-offset="403" max-vertical-offset="1635">
+            <state line="53" column="8" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.3079526" vertical-offset="403" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
@@ -234,7 +234,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="branch1" />
+        <entry key="$PROJECT_DIR$" value="branch2" />
       </map>
     </option>
   </component>
@@ -787,7 +787,15 @@
       <created>1380705241486</created>
       <updated>1380705241486</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="e">
+      <created>1380705298654</created>
+      <updated>1380705298654</updated>
+    </task>
+    <task id="LOCAL-00017" summary="tt">
+      <created>1380705406623</created>
+      <updated>1380705406623</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -880,7 +888,9 @@
     </option>
     <MESSAGE value="1" />
     <MESSAGE value="qw" />
-    <option name="LAST_COMMIT_MESSAGE" value="qw" />
+    <MESSAGE value="e" />
+    <MESSAGE value="tt" />
+    <option name="LAST_COMMIT_MESSAGE" value="tt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -993,7 +1003,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="8" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.2571912" vertical-offset="403" max-vertical-offset="1635">
+        <state line="53" column="8" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.3079526" vertical-offset="403" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
