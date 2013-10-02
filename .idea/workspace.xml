@@ -869,7 +869,11 @@
       <created>1380708330208</created>
       <updated>1380708330208</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="main">
+      <created>1380708345310</created>
+      <updated>1380708345310</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -966,7 +970,8 @@
     <MESSAGE value="tt" />
     <MESSAGE value="y" />
     <MESSAGE value="zzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="zzz" />
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
