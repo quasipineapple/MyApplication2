@@ -27,7 +27,7 @@ public class PacketReader {
     private ExecutorService listenerExecutor;
     private boolean done;
     private Semaphore connectionSemaphore;
-    private boolean connected;
+    //private boolean connected;
 
     public PacketReader(MTPConnection connection) {
         this.connection = connection;
@@ -36,7 +36,7 @@ public class PacketReader {
 
     public void init(){
 
-        connected = false;
+        //connected = false;
         done = false;
         readerThread = new Thread(){
             @Override
@@ -63,14 +63,15 @@ public class PacketReader {
             connectionSemaphore.tryAcquire(waitTime, TimeUnit.MILLISECONDS);
 
         } catch (InterruptedException e) {
-            //e.printStackTrace();
+            e.printStackTrace();
+
         }
 
-        if(!connected){
-            throw new Exception("Connection failed. No response from server.");
-        }else{
+        //if(!connected){
+        //    throw new Exception("Connection failed. No response from server.");
+        //}else{
             connection.connected = true;
-        }
+        //}
     }
 
     private void parsePackets(Thread thread){
