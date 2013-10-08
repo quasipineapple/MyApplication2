@@ -2,17 +2,9 @@ package com.skvortsov.mtproto;
 
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.content.ComponentName;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.ServiceConnection;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.IBinder;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,15 +12,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.skvortsov.mtproto.app.IMControl;
 import com.skvortsov.mtproto.interfaces.IAppManager;
 import com.skvortsov.mtproto.mtp_api.Auth;
-import com.skvortsov.mtproto.services.IMService;
-
-import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
 
 
 public class Login extends Activity {	
@@ -115,7 +102,7 @@ public class Login extends Activity {
                 control.connect();
 
                 try {
-                    Auth.SendCode();
+                    Auth.SendCode(phone, null, null);
                 } catch (CloneNotSupportedException e) {
                     e.printStackTrace();
                 }

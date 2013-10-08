@@ -7,8 +7,8 @@ public class AccountInfo {
 
     private User user;
 
-    public AccountInfo(User user) {
-        this.user = user;
+    public AccountInfo() {
+        this.user = new User();
     }
 
     public User getUser() {

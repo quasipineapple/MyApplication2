@@ -13,6 +13,10 @@ public class User {
         this.username = username;
     }
 
+    public User() {
+
+    }
+
     public void setUsername(String username) {
         this.username = username;
     }

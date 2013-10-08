@@ -32,11 +32,18 @@ public class IMControl {
 
         if(server != null && server.getPort() != 0 && server.getAddress() != null){
 
-            config = new ConnectionConfiguration(server.getAddress(),
-                    server.getPort());
+            try {
+                config = new ConnectionConfiguration(server.getAddress(),
+                        server.getPort());
 
-            connection = new MTPConnection(config);
-            account = new AccountInfo();
+                connection = new MTPConnection(config);
+                account = new AccountInfo();
+
+                connection.connect();
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
 
         }
 

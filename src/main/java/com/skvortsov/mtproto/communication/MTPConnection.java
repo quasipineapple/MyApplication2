@@ -1,9 +1,13 @@
 package com.skvortsov.mtproto.communication;
 
+import com.skvortsov.mtproto.Packet;
+import com.skvortsov.mtproto.mtp_api.Auth;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
+import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -20,7 +24,7 @@ public class MTPConnection {
 
     public static boolean DEBUG_ENABLED = false;
 
-    private ConnectionConfiguration config;
+    private ConnectionConfiguration configuration;
 
     private PacketReader packetReader;
     private PacketWriter packetWriter;
@@ -29,14 +33,32 @@ public class MTPConnection {
 
     int connectionCounterValue = connectionCounter.getAndIncrement();
     public boolean connected = false;
+    public boolean authenticated = false;
 
     public void connect() throws Exception {
 
-        connectUsingConfiguration(config);
+        connectUsingConfiguration(configuration);
 
         if(connected){
 
+            login(getConfiguration().getPhone());
         }
+
+
+    }
+
+    private void login(String phone) throws Exception {
+
+        if(!connected){
+            throw new IllegalStateException("Not connected to server.");
+        }
+        if(authenticated){
+            throw new IllegalStateException("Already logged in to server.");
+        }
+
+        String responce;
+
+        responce = new Auth(this).SendCode(phone, 0, 0, null);
 
 
     }
@@ -57,9 +79,19 @@ public class MTPConnection {
 
     }
 
-    public void sendPacket(){
+    public void sendPacket(Packet packet){
+        if (!connected) {
+            throw new IllegalStateException("Not connected to server.");
+        }
+        if (packet == null) {
+            throw new NullPointerException("Packet is null.");
+        }
+
+        packetWriter.sendPacket(packet);
 
     }
+
+
 
     private void initConnection() throws Exception {
 
@@ -94,7 +126,7 @@ public class MTPConnection {
     }
 
     public MTPConnection(ConnectionConfiguration config) {
-        this.config = config;
+        this.configuration = config;
     }
 
 
@@ -171,5 +203,29 @@ public class MTPConnection {
             //e.printStackTrace();
         }
 
+    }
+
+    public ConnectionConfiguration getConfiguration() {
+        return configuration;
+    }
+
+    public void setConfiguration(ConnectionConfiguration configuration) {
+        this.configuration = configuration;
+    }
+
+    public boolean isConnected() {
+        return connected;
+    }
+
+    public void setConnected(boolean connected) {
+        this.connected = connected;
+    }
+
+    public boolean isAuthenticated() {
+        return authenticated;
+    }
+
+    public void setAuthenticated(boolean authenticated) {
+        this.authenticated = authenticated;
     }
 }

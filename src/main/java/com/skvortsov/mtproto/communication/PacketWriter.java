@@ -95,4 +95,9 @@ public class PacketWriter {
     public void shutdown() {
 
     }
+
+    public void sendPacket(Packet packet) {
+
+
+    }
 }

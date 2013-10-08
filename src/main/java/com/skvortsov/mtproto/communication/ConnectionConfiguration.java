@@ -8,6 +8,8 @@ public class ConnectionConfiguration {
     String host;
     int port;
 
+    private String phone;
+
     private boolean debuggerEnabled = MTPConnection.DEBUG_ENABLED;
 
     public ConnectionConfiguration(String host, int port) {
@@ -18,6 +20,14 @@ public class ConnectionConfiguration {
 
         this.host = host;
         this.port = port;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public boolean isDebuggerEnabled() {
