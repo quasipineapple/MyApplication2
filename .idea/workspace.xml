@@ -77,7 +77,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AccountInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/DatabaseHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/IMControl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/ServerProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/values/database.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/BookManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/BookManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -145,52 +158,16 @@
       <file leaf-file-name="MTPConnection.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="19" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0" vertical-offset="1987" max-vertical-offset="2580">
+            <state line="37" column="0" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2655">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IAppManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/IAppManager.java">
+      <file leaf-file-name="IMControl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/IMControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISocketOperator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/ISocketOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUpdateData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/IUpdateData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="44" selection-start="4583" selection-end="4583" vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="3600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Auth.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="60" selection-start="484" selection-end="484" vertical-scroll-proportion="0.35413152" vertical-offset="0" max-vertical-offset="593">
+            <state line="38" column="34" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,28 +175,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PacketReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
+      <file leaf-file-name="AccountInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AccountInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="0" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="2025">
+            <state line="23" column="20" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PacketWriter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java">
+      <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="27" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
+            <state line="15" column="46" selection-start="251" selection-end="251" vertical-scroll-proportion="0.37942666" vertical-offset="0" max-vertical-offset="593">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfig.java">
+      <file leaf-file-name="DatabaseHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="780">
+            <state line="25" column="58" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="2640">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/values/database.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="18" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Msg_container.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_container.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Msg.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -228,7 +232,19 @@
       <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="23" selection-start="2782" selection-end="2782" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="5175">
+            <state line="110" column="0" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2325">
+              <folding>
+                <element signature="e#3394#3466#0" expanded="true" />
+                <element signature="e#3779#3780#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="191" column="50" selection-start="6442" selection-end="6442" vertical-scroll-proportion="0.0" vertical-offset="1935" max-vertical-offset="3645">
               <folding />
             </state>
           </provider>
@@ -270,22 +286,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/SignUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/tools/XMLHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Constructor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Method.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Param.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PollardRho.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/SocketOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/BookManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/ServerProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/IMControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AccountInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/User.java" />
       </list>
     </option>
   </component>
@@ -379,11 +395,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,6 +567,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtproto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -541,23 +633,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.skvortsov.mtproto" />
       <recent name="com.skvortsov.mtproto.interfaces" />
       <recent name="com.skvortsov.mtproto.services" />
       <recent name="com.skvortsov.mtproto.communication" />
       <recent name="com.skvortsov.mtproto.engine" />
-      <recent name="com.skvortsov.mtproto.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/res/values" />
       <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\res\layout" />
       <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\java\com\skvortsov\mtproto" />
       <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\java\com\skvortsov\mtproto\engine" />
       <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\java\com\skvortsov\mtproto\app" />
-      <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\java\com\skvortsov\mtproto\interfaces" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.skvortsov.mtproto" />
       <recent name="com.skvortsov.mtproto.mtp_api" />
       <recent name="com.skvortsov.mtproto.communication" />
-      <recent name="com.skvortsov.mtproto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\сергей\AndroidStudioProjects\MyApplication\src\main\old" />
@@ -918,7 +1010,11 @@
       <created>1380741127764</created>
       <updated>1380741127764</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="123">
+      <created>1381181208998</created>
+      <updated>1381181208998</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -950,11 +1046,13 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31561998" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57004833" sideWeight="0.5003997" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5120773" sideWeight="0.49960032" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33494365" sideWeight="0.49960032" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5426731" sideWeight="0.49959967" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940048" sideWeight="0.4299517" order="1" side_tool="false" content_ui="tabs" />
@@ -968,8 +1066,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32693845" sideWeight="0.6006441" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33494365" sideWeight="0.49960032" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1026,113 +1122,122 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Session.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="5" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.12647554" vertical-offset="0" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Packet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="346" selection-end="346" vertical-scroll-proportion="-0.07614213" vertical-offset="300" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/PacketManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="10" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/ConstructorManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="7" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/EncryptedMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_container.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1410">
+        <state line="7" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/database.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="23" selection-start="2782" selection-end="2782" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="4575">
+        <state line="2" column="18" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="780">
+        <state line="25" column="58" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="2640">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.0" vertical-offset="787" max-vertical-offset="1740">
+        <state line="12" column="13" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2190">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Msg_containerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="19" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0" vertical-offset="1963" max-vertical-offset="2580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/IAppManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/ISocketOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/interfaces/IUpdateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="7" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.17706576" vertical-offset="0" max-vertical-offset="593">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="44" selection-start="4583" selection-end="4583" vertical-scroll-proportion="0.0" vertical-offset="1311" max-vertical-offset="3600">
+        <state line="191" column="50" selection-start="6442" selection-end="6442" vertical-scroll-proportion="0.0" vertical-offset="1935" max-vertical-offset="3645">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="0" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2325">
+          <folding>
+            <element signature="e#3394#3466#0" expanded="true" />
+            <element signature="e#3779#3780#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="60" selection-start="484" selection-end="484" vertical-scroll-proportion="0.35413152" vertical-offset="0" max-vertical-offset="593">
+        <state line="12" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="23" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.7928389" vertical-offset="485" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/IMControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="34" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AccountInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="46" selection-start="251" selection-end="251" vertical-scroll-proportion="0.37942666" vertical-offset="0" max-vertical-offset="593">
+          <folding />
         </state>
       </provider>
     </entry>

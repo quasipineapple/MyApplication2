@@ -3,14 +3,14 @@ package com.skvortsov.mtproto.communication;
 /**
  * Created by skvortsov on 9/24/13.
  */
-public class ConnectionConfig {
+public class ConnectionConfiguration {
 
     String host;
     int port;
 
     private boolean debuggerEnabled = MTPConnection.DEBUG_ENABLED;
 
-    public ConnectionConfig(String host, int port) {
+    public ConnectionConfiguration(String host, int port) {
         init(host, port);
     }
 

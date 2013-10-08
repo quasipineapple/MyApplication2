@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="Database_onCreate">
+    	CREATE TABLE USER_INFO(ID INTEGER PRIMARY KEY AUTOINCREMENT, USERNAME TEXT NOT NULL,
+    		PASSWORD TEXT NOT NULL, IMTYPE TEXT NOT NULL, 
+    		REMEMBERNAME TEXT NOT NULL, REMEMBERPASS TEXT NOT NULL); \n
+    	CREATE TABLE SERVER_INFO(ADDRESS BLOB NOT NULL, PORT INTEGER NOT NULL); \n
+    	INSERT INTO SERVER_INFO(ADDRESS, PORT) VALUES(\"192.168.2.77\", 5222); \n
+    	CREATE TABLE HISTORY_MESSAGE(ID INTEGER PRIMARY KEY AUTOINCREMENT, CHATWITH TEXT NOT NULL,
+    		TIME TEXT NOT NULL, MESSAGE TEXT NOT NULL, SPEAKER TEXT NOT NULL); \n
+    </string>
+    <string name="Database_onUpgrade">
+    	DROP TABLE IF EXISTS USER; \n
+    	DROP TABLE IF EXISTS SERVER; \n
+    	DROP TABLE IF EXISTS HISTORY_MESSAGE; \n
+    </string>
+    <string name="IMType_AndroidIM">AndroidIM</string>
+    <string name="IMType_MSN">MSN</string>
+    <string name="IMType_GTalk">GTalk</string>
+    <string name="IMType_AIM">AIM</string>
+</resources>

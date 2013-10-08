@@ -9,7 +9,7 @@ import java.io.Reader;
 /**
  * Created by сергей on 20.08.13.
  */
-public class BookManager {
+public final class BookManager {
 
     private static Book book;
 

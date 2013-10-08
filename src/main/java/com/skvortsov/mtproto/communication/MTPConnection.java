@@ -1,14 +1,8 @@
 package com.skvortsov.mtproto.communication;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.Reader;
-import java.io.Writer;
 import java.net.Socket;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -26,7 +20,7 @@ public class MTPConnection {
 
     public static boolean DEBUG_ENABLED = false;
 
-    private ConnectionConfig config;
+    private ConnectionConfiguration config;
 
     private PacketReader packetReader;
     private PacketWriter packetWriter;
@@ -40,9 +34,14 @@ public class MTPConnection {
 
         connectUsingConfiguration(config);
 
+        if(connected){
+
+        }
+
+
     }
 
-    private void connectUsingConfiguration(ConnectionConfig config) throws Exception {
+    private void connectUsingConfiguration(ConnectionConfiguration config) throws Exception {
 
         this.host = config.getHost();
         this.port = config.getPort();
@@ -94,7 +93,7 @@ public class MTPConnection {
         }
     }
 
-    public MTPConnection(ConnectionConfig config) {
+    public MTPConnection(ConnectionConfiguration config) {
         this.config = config;
     }
 

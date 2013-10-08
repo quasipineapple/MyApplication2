@@ -491,6 +491,7 @@
     <string name="not_signed_in">You are currently not signed in.</string>
     <!-- Generic error.-->
     <string name="general_error">Error code <xliff:g id="code">%1$d</xliff:g></string>
+    <string name="loginProgressMessage">Connecting and validating......</string>
 
     <!-- Smiley names. May be overrided by the plugin. -->
     <string-array name="default_smiley_names">

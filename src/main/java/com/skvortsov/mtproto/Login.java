@@ -4,6 +4,7 @@ package com.skvortsov.mtproto;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -21,7 +22,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.skvortsov.mtproto.app.IMControl;
 import com.skvortsov.mtproto.interfaces.IAppManager;
+import com.skvortsov.mtproto.mtp_api.Auth;
 import com.skvortsov.mtproto.services.IMService;
 
 import java.io.IOException;
@@ -55,80 +58,12 @@ public class Login extends Activity {
 
     private OnClickListener myButtonClickListener = new Button.OnClickListener(){
         public void onClick(View v){
-            help_GetConfig();
+
         }
     };
-
-    private void help_GetConfig() {
-        Thread myThread = new Thread(){
-            private Handler handler = new Handler();
-            @Override
-            public void run() {
-                String result = null;
-                try {
-                    result = imService.help_getConfig();
-                } catch (CloneNotSupportedException e) {
-                    e.printStackTrace();
-                } catch (NoSuchAlgorithmException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-
-                if (result == null || result.equals(AUTHENTICATION_FAILED))
-                {
-                    /*
-                     * Authenticatin failed, inform the user
-                     */
-                    handler.post(new Runnable(){
-                        public void run() {
-                            Toast.makeText(getApplicationContext(),
-                                    R.string.make_sure_username_and_password_correct,
-                                    Toast.LENGTH_LONG).show();
-                            //showDialog(MAKE_SURE_USERNAME_AND_PASSWORD_CORRECT);
-                        }
-                    });
-
-                }
-                else {
-                    handler.post(new Runnable(){
-                        public void run() {
-                            Toast.makeText(getApplicationContext(),
-                                    R.string.qwe,
-                                    Toast.LENGTH_LONG).show();
-                            //showDialog(MAKE_SURE_USERNAME_AND_PASSWORD_CORRECT);
-                        }
-                    });
-                }
-
-            }
-        };
-        myThread.start();
-    }
-
-    private ServiceConnection mConnection = new ServiceConnection() {
-        public void onServiceConnected(ComponentName className, IBinder service) {
-            // This is called when the connection with the service has been
-            // established, giving us the service object we can use to
-            // interact with the service.  Because we have bound to a explicit
-            // service that we know is running in our own process, we can
-            // cast its IBinder to a concrete class and directly access it.
-            imService = ((IMService.IMBinder)service).getService();  
-            
-
-        }
-
-        public void onServiceDisconnected(ComponentName className) {
-            // This is called when the connection with the service has been
-            // unexpectedly disconnected -- that is, its process crashed.
-            // Because it is running in our same process, we should never
-            // see this happen.
-        	imService = null;
-            Toast.makeText(Login.this, R.string.local_service_stopped,
-                    Toast.LENGTH_SHORT).show();
-        }
-    };
-
+    private ProgressDialog progressDialog;
+    private IMControl control;
+    private ServerProvider serverProvider;
 
 
     /** Called when the activity is first created. */	
@@ -138,10 +73,6 @@ public class Login extends Activity {
         setContentView(R.layout.login_screen);
         setTitle("Login");
 
-        /*
-         * Start and bind the  imService 
-         **/
-    	startService(new Intent(Login.this,  IMService.class));
         SessionManager.readSession();
         BookManager.BuildBook(getResources().openRawResource(R.raw.json));
 
@@ -163,8 +94,8 @@ public class Login extends Activity {
 
         tel1Text = (EditText) findViewById(R.id.tel1);
         tel2Text = (EditText) findViewById(R.id.tel2);
-
-
+        control = IMControl.getInstance();
+        control.setServer(serverProvider.getServerInfo());
         
 
 
@@ -172,134 +103,42 @@ public class Login extends Activity {
 
     private void auth_sendCode(){
 
-        if (imService == null) {
-            Toast.makeText(getApplicationContext(),R.string.not_connected_to_service, Toast.LENGTH_LONG).show();
-            //showDialog(NOT_CONNECTED_TO_SERVICE);
-        }
-        else if (!imService.isNetworkConnected())
-        {
-            Toast.makeText(getApplicationContext(),R.string.not_connected_to_network, Toast.LENGTH_LONG).show();
-            //showDialog(NOT_CONNECTED_TO_NETWORK);
 
-        }
-        else if (tel1Text.length() <= 0 &&
-                tel2Text.length() <= 0)
-        {
-            Toast.makeText(getApplicationContext(),R.string.fill_both_username_and_password, Toast.LENGTH_LONG).show();
-        }
+        progressDialog = ProgressDialog.show(Login.this, null, getResources()
+                .getString(R.string.loginProgressMessage), true);
 
-        Thread loginThread = new Thread(){
-            private Handler handler = new Handler();
+        new Thread(){
+
             @Override
             public void run() {
-                String result = null;
+
+                control.connect();
 
                 try {
-                    result = imService.auth_sendCode(tel1Text.getText().toString().concat(tel2Text.getText().toString()));
-                } catch (IOException e) {
-                    e.printStackTrace();
+                    Auth.SendCode();
                 } catch (CloneNotSupportedException e) {
                     e.printStackTrace();
-                } catch (NoSuchAlgorithmException e) {
-                    e.printStackTrace();
                 }
 
-                if (result == null || result.equals(AUTHENTICATION_FAILED))
-                {
-                    /*
-                     * Authenticatin failed, inform the user
-                     */
-                    handler.post(new Runnable(){
-                        public void run() {
-                            Toast.makeText(getApplicationContext(),
-                                    R.string.make_sure_username_and_password_correct,
-                                    Toast.LENGTH_LONG).show();
-                            //showDialog(MAKE_SURE_USERNAME_AND_PASSWORD_CORRECT);
-                        }
-                    });
 
-                }
-                else {
-
-                    handler.post(new Runnable(){
-                        public void run() {
-                            Toast.makeText(getApplicationContext(),
-                                    R.string.qwe,
-                                    Toast.LENGTH_LONG).show();
-                            //showDialog(MAKE_SURE_USERNAME_AND_PASSWORD_CORRECT);
-                        }
-                    });
-
-                    /*handler.post(new Runnable(){
-                        public void run() {
-                            Intent i = new Intent(Login.this, SignUp.class);
-                            //i.putExtra(FRIEND_LIST, result);
-                            startActivity(i);
-                            Login.this.finish();
-                        }
-                    });*/
-
-
-
-                }
             }
-        };
+        }.start();
 
-        loginThread.start();
 
     }
 
-
-    @Override
-    protected Dialog onCreateDialog(int id) 
-    {    	
-    	int message = -1;    	
-    	switch (id) 
-    	{
-    		case NOT_CONNECTED_TO_SERVICE:
-    			message = R.string.not_connected_to_service;			
-    			break;
-    		case FILL_BOTH_USERNAME_AND_PASSWORD:
-    			message = R.string.fill_both_username_and_password;
-    			break;
-    		case MAKE_SURE_USERNAME_AND_PASSWORD_CORRECT:
-    			message = R.string.make_sure_username_and_password_correct;
-    			break;
-    		case NOT_CONNECTED_TO_NETWORK:
-    			message = R.string.not_connected_to_network;
-    			break;
-    		default:
-    			break;
-    	}
-    	
-    	if (message == -1) 
-    	{
-    		return null;
-    	}
-    	else 
-    	{
-    		return new AlertDialog.Builder(Login.this)       
-    		.setMessage(message)
-    		.setPositiveButton(R.string.OK, new DialogInterface.OnClickListener() {
-    			public void onClick(DialogInterface dialog, int whichButton) {
-    				/* User clicked OK so do some stuff */
-    			}
-    		})        
-    		.create();
-    	}
-    }
 
 	@Override
 	protected void onPause() 
 	{
-		unbindService(mConnection);
+
 		super.onPause();
 	}
 
 	@Override
 	protected void onResume() 
 	{		
-		bindService(new Intent(Login.this, IMService.class), mConnection , Context.BIND_AUTO_CREATE);
+
 	    		
 		super.onResume();
 	}

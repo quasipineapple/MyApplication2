@@ -141,7 +141,10 @@ public class IMService extends Service implements IAppManager, IUpdateData {
             return Login.AUTHENTICATION_FAILED;
         }
 
-        Method auth_sendCode = new Auth().SendCode();
+        Auth.SendCode();
+
+        
+
         //Constructor ping = BookManager.getBook().getConstructorByPredicate("ping").clone();
         //ping.getParamByName("ping_id").setData((long) 1);
 
