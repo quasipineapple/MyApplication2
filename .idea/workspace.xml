@@ -77,15 +77,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4813c9f-ee75-4b27-8cc2-6456b2c55c4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AccountInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/AccountInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/IMControl.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/IMControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/services/IMService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/Login.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" afterPath="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/User.java" afterPath="$PROJECT_DIR$/src/main/gen/com/skvortsov/mtproto/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -153,7 +145,7 @@
       <file leaf-file-name="MTPConnection.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="38" selection-start="1450" selection-end="1450" vertical-scroll-proportion="1.3153456" vertical-offset="0" max-vertical-offset="3435">
+            <state line="24" column="4" selection-start="513" selection-end="513" vertical-scroll-proportion="0.40472177" vertical-offset="0" max-vertical-offset="3450">
               <folding />
             </state>
           </provider>
@@ -292,8 +284,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/ConnectionConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/PacketWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/app/IMControl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/mtp_api/Auth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java" />
       </list>
     </option>
   </component>
@@ -1010,7 +1002,11 @@
       <created>1381202485582</created>
       <updated>1381202485582</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="123">
+      <created>1381228554279</created>
+      <updated>1381228554279</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1230,7 +1226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skvortsov/mtproto/communication/MTPConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="38" selection-start="1450" selection-end="1450" vertical-scroll-proportion="1.3153456" vertical-offset="0" max-vertical-offset="3435">
+        <state line="24" column="4" selection-start="513" selection-end="513" vertical-scroll-proportion="0.40472177" vertical-offset="0" max-vertical-offset="3450">
           <folding />
         </state>
       </provider>

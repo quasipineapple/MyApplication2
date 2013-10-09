@@ -22,6 +22,7 @@ public class MTPConnection {
     int port;
     Socket socket;
 
+
     public static boolean DEBUG_ENABLED = false;
 
     private ConnectionConfiguration configuration;
