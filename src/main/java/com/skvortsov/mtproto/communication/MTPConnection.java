@@ -1,6 +1,8 @@
 package com.skvortsov.mtproto.communication;
 
+import com.skvortsov.mtproto.ConstructorCollector;
 import com.skvortsov.mtproto.Packet;
+import com.skvortsov.mtproto.interfaces.ConstructorFilter;
 import com.skvortsov.mtproto.mtp_api.Auth;
 
 import java.io.IOException;
@@ -228,5 +230,10 @@ public class MTPConnection {
 
     public void setAuthenticated(boolean authenticated) {
         this.authenticated = authenticated;
+    }
+
+    public ConstructorCollector createConstructorCollector(ConstructorFilter filter) {
+
+        return packetReader.createConstructorCollector(filter);
     }
 }

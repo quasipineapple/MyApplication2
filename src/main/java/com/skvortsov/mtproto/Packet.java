@@ -70,4 +70,17 @@ public class Packet {
         Log.w(TAG, "payload length = " + payload.length);
         return m;
     }
+
+    public EncryptedMessage toEncryptedMessage(){
+
+        EncryptedMessage em = new EncryptedMessage();
+        em.setAuth_key_id(Arrays.copyOfRange(this.getPayload(), 0, 8));
+        em.setMsgKey(Arrays.copyOfRange(this.getPayload(), 8, 24));
+        em.setEncrypted_data(Arrays.copyOfRange(this.getPayload(), 24, this.getPayload().length));
+        Log.i(TAG, "p.getPayload().length" + this.getPayload().length);
+
+        return em;
+
+    }
+
 }

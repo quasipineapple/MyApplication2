@@ -1,12 +1,10 @@
 package com.skvortsov.mtproto.mtp_api;
 
 import com.skvortsov.mtproto.BookManager;
-import com.skvortsov.mtproto.Constructor;
-import com.skvortsov.mtproto.Data;
+import com.skvortsov.mtproto.ConstructorCollector;
 import com.skvortsov.mtproto.Method;
 import com.skvortsov.mtproto.communication.MTPConnection;
-
-import java.security.NoSuchAlgorithmException;
+import com.skvortsov.mtproto.ConstructorPredicateFilter;
 
 /**
  * Created by skvortsov on 10/8/13.
@@ -28,12 +26,11 @@ public class Auth {
         auth_sendCode.getParamByName("api_id").setData(api_id);
         auth_sendCode.getParamByName("api_hash").setData(api_hash);
 
-        Data d = auth_sendCode.toData();
+        ConstructorPredicateFilter filter = new ConstructorPredicateFilter("Auth.sendCode");
 
-        DataCollector collector =
-                connection.createDataCollector(new DataFilter(d.getMessage_id()));
+        ConstructorCollector collector = connection.createConstructorCollector();
 
-        connection.sendPacket(d.toEncryptedMessage().toPacket());
+        connection.sendPacket(auth_sendCode.toData().toEncryptedMessage().toPacket());
 
 
 
