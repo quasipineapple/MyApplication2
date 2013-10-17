@@ -11,7 +11,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 	/** The name of the database file on the file system */
 	private static final String DATABASE_NAME = "mtproto";
 	/** The version of the database that this class understands. */
-	private static final int DATABASE_VERSION = 3;
+	private static final int DATABASE_VERSION = 1;
 	private final Context mContext;
 	private static final String LOG_TAG = "DatabaseHelper";
 

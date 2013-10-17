@@ -45,6 +45,8 @@ public class PacketWriter {
                 Packet packet = nextPacket();
                 if(packet != null){
                     synchronized (writer){
+                        System.out.println(packet.getSize());
+                        System.out.println(packet.toString());
                         writer.write(packet.array());
                         writer.flush();
                     }
@@ -88,7 +90,7 @@ public class PacketWriter {
     }
 
     public void startup() {
-
+        writerThread.start();
 
     }
 
@@ -98,6 +100,26 @@ public class PacketWriter {
 
     public void sendPacket(Packet packet) {
 
+        if (!done) {
+            // Invoke interceptors for the new packet that is about to be sent. Interceptors
+            // may modify the content of the packet.
+            //processInterceptors(packet);
+
+            try {
+                queue.put(packet);
+            }
+            catch (InterruptedException ie) {
+                ie.printStackTrace();
+                return;
+            }
+            synchronized (queue) {
+                queue.notifyAll();
+            }
+
+            // Process packet writer listeners. Note that we're using the sending
+            // thread so it's expected that listeners are fast.
+            //processListeners(packet);
+        }
 
     }
 }

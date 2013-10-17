@@ -492,6 +492,8 @@
     <!-- Generic error.-->
     <string name="general_error">Error code <xliff:g id="code">%1$d</xliff:g></string>
     <string name="loginProgressMessage">Connecting and validating......</string>
+    <string name="serviceConfigTitle">Server Configuration</string>
+    <string name="server_config">Server Config</string>
 
     <!-- Smiley names. May be overrided by the plugin. -->
     <string-array name="default_smiley_names">

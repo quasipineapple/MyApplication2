@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:paddingTop="80sp"
+	android:background="@color/background_color">
+
+	<RelativeLayout android:layout_width="300dip"
+		android:layout_marginLeft="15dip" android:layout_height="50dip">
+
+		<TextView android:id="@+id/server" android:layout_width="wrap_content"
+			android:layout_alignParentLeft="true" android:layout_height="wrap_content"
+			android:layout_centerVertical="true" android:text="Address: "
+			android:textColor="@color/font_color" android:textSize="22sp" />
+
+		<EditText android:id="@+id/address_value"
+			android:layout_width="200dip" android:layout_height="wrap_content"
+			android:layout_marginLeft="90dip" android:layout_centerVertical="true" />
+
+	</RelativeLayout>
+
+	<RelativeLayout android:layout_width="300dip"
+		android:layout_marginLeft="15dip" android:layout_height="50dip">
+
+		<TextView android:id="@+id/port" android:layout_width="wrap_content"
+			android:layout_alignParentLeft="true" android:layout_height="wrap_content"
+			android:layout_centerVertical="true" android:text="Port: "
+			android:textColor="@color/font_color" android:textSize="22sp" />
+
+		<EditText android:id="@+id/port_value" android:layout_width="200dip"
+			android:layout_height="wrap_content" android:layout_marginLeft="90dip"
+			android:layout_centerVertical="true" />
+
+	</RelativeLayout>
+
+	<RelativeLayout android:orientation="horizontal"
+		android:layout_marginTop="205dip" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+
+			
+			
+			<Button android:id="@+id/serverConfigCancelButton" android:text="Cancel"
+		android:textSize="20sp" android:textColor="@color/black"
+		android:layout_marginLeft="0dip" android:layout_width="160dip"
+		android:layout_height="wrap_content" />
+			<Button android:id="@+id/serverConfigSubmitButton" android:text="Sumbit"
+		android:textSize="20sp" android:textColor="@color/black"
+		android:layout_marginLeft="160dip" android:layout_width="160dip"
+		android:layout_height="wrap_content" />
+
+	</RelativeLayout>
+</LinearLayout>

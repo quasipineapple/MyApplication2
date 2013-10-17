@@ -141,7 +141,7 @@ public class IMService extends Service implements IAppManager, IUpdateData {
             return Login.AUTHENTICATION_FAILED;
         }
 
-        Auth.SendCode(phone, null, null);
+        //Auth.SendCode(phone, null, null);
 
 
 
@@ -150,11 +150,11 @@ public class IMService extends Service implements IAppManager, IUpdateData {
 
 
 
-        byte[] answer = socketOperator.sendHttpRequest(
-                auth_sendCode.toData().toEncryptedMessage().array());
+        //byte[] answer = socketOperator.sendHttpRequest(
+        //        auth_sendCode.toData().toEncryptedMessage().array());
         /*byte[] answer = socketOperator.sendHttpRequest(
                 ping.toData().toEncryptedMessage().array());*/
-        Data d = EncryptedMessageManager.parse2(answer).toData();
+        //Data d = EncryptedMessageManager.parse2(answer).toData();
 
         /*byte[] answer = socketOperator.sendPacket(
                 ping.toData().toEncryptedMessage().toPacket().array());
@@ -162,7 +162,7 @@ public class IMService extends Service implements IAppManager, IUpdateData {
 
         //System.out.println(Helpers.byteArrayToHex(ping.toData().array()));
         //System.out.println(Helpers.byteArrayToHex(ping.toData().toEncryptedMessage().array()));
-        getAnswer(d);
+        //getAnswer(d);
         //Log.d(TAG, Helpers.byteArrayToHex(answer));
         //imService.sendPacket(auth_sendCode.toData().toEncryptedMessage().toPacket());
 

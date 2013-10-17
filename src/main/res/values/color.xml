@@ -1,0 +1,9 @@
+<resources>
+   <color name="white">#FFFFFF</color>
+   <color name="bottom_color">#0A4166</color>
+   <color name="background_color">#182430</color>
+   <color name="font_color">#93C3D2</color>
+   <color name="red_color">#800000</color>
+   <color name="blue_color">#397BD0</color>
+   <color name="black">#000000</color>
+</resources>

@@ -1,5 +1,6 @@
 package com.skvortsov.mtproto.communication;
 
+import com.skvortsov.mtproto.Constructor;
 import com.skvortsov.mtproto.ConstructorCollector;
 import com.skvortsov.mtproto.Packet;
 import com.skvortsov.mtproto.interfaces.ConstructorFilter;
@@ -37,20 +38,22 @@ public class MTPConnection {
     int connectionCounterValue = connectionCounter.getAndIncrement();
     public boolean connected = false;
     public boolean authenticated = false;
+    private Constructor phone_registered;
+    private String phone_code_hash;
 
     public void connect() throws Exception {
 
         connectUsingConfiguration(configuration);
 
-        if(connected){
+        //if(connected){
 
-            login(getConfiguration().getPhone());
-        }
+        //    login(getConfiguration().getPhone());
+        //}
 
 
     }
 
-    private void login(String phone) throws Exception {
+    public synchronized void login() throws Exception {
 
         if(!connected){
             throw new IllegalStateException("Not connected to server.");
@@ -59,9 +62,19 @@ public class MTPConnection {
             throw new IllegalStateException("Already logged in to server.");
         }
 
-        String responce;
+        Constructor response;
 
-        responce = new Auth(this).SendCode(phone, 0, 0, null);
+        response = new Auth(this).SendCode("+79056624155", 0, 1463, "437a55dcaee748fc1596a1bb5e6ca7db");
+
+        if(response != null){
+            System.out.println(response.toString());
+            this.phone_registered = (Constructor)response.getParamByName("phone_registered").getData();
+            this.phone_code_hash = (String)response.getParamByName("phone_code_hash").getData();
+        }
+
+
+        //authenticated = true;
+
 
 
     }
@@ -114,6 +127,8 @@ public class MTPConnection {
         packetWriter.startup();
 
         packetReader.startup();
+
+        connected = true;
 
 
     }

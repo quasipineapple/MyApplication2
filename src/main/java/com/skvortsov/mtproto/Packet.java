@@ -18,6 +18,8 @@ public class Packet {
     private byte[] payload;
     private byte[] crc32;
 
+
+
     public Packet(){}
 
     public byte[] array() {
@@ -83,4 +85,13 @@ public class Packet {
 
     }
 
+    public int getSize() {
+        return length();
+    }
+
+    @Override
+    public String toString() {
+
+        return Helpers.bytesToHex(this.array());
+    }
 }

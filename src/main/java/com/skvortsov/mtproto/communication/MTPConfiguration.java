@@ -3,13 +3,13 @@ package com.skvortsov.mtproto.communication;
 /**
  * Created by skvortsov on 10/1/13.
  */
-public final class AppConfig {
+public final class MTPConfiguration {
 
     private static final String MTP_VERSION = "1.0";
 
     private static int packetReplyTimeout = 15000;
 
-    private AppConfig() {
+    private MTPConfiguration() {
     }
 
     public static String getMtpVersion() {
@@ -21,6 +21,6 @@ public final class AppConfig {
     }
 
     public static void setPacketReplyTimeout(int packetReplyTimeout) {
-        AppConfig.packetReplyTimeout = packetReplyTimeout;
+        MTPConfiguration.packetReplyTimeout = packetReplyTimeout;
     }
 }

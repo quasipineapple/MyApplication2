@@ -17,7 +17,7 @@ public class MyApp extends Application {
         super.onCreate();
         sMyApp = this;
 
-        SessionManager.init(this);
+
 
 
     }
