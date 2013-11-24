@@ -7,7 +7,7 @@ public final class MTPConfiguration {
 
     private static final String MTP_VERSION = "1.0";
 
-    private static int packetReplyTimeout = 15000;
+    private static int packetReplyTimeout = 300;
 
     private MTPConfiguration() {
     }

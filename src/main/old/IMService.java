@@ -29,16 +29,16 @@ import com.skvortsov.mtproto.Constructor;
 import com.skvortsov.mtproto.Data;
 import com.skvortsov.mtproto.EncryptedMessageManager;
 import com.skvortsov.mtproto.Helpers;
-import com.skvortsov.mtproto.Login;
+import com.skvortsov.mtproto.SendCode;
 import com.skvortsov.mtproto.Method;
 import com.skvortsov.mtproto.Msg;
+import com.skvortsov.mtproto.SendCode;
 import com.skvortsov.mtproto.SessionManager;
 import com.skvortsov.mtproto.communication.MTPConnection;
 import com.skvortsov.mtproto.communication.SocketOperator;
 import com.skvortsov.mtproto.interfaces.IAppManager;
 import com.skvortsov.mtproto.interfaces.ISocketOperator;
 import com.skvortsov.mtproto.interfaces.IUpdateData;
-import com.skvortsov.mtproto.mtp_api.Auth;
 import com.skvortsov.mtproto.tools.LocalStorageHandler;
 import com.skvortsov.mtproto.types.FriendInfo;
 import com.skvortsov.mtproto.types.MessageInfo;
@@ -138,10 +138,10 @@ public class IMService extends Service implements IAppManager, IUpdateData {
 
         if(!SessionManager.getS().isAuthKeyOk()) {
             Log.d(TAG, "Неверный auth_key. Перезапустите приложение.");
-            return Login.AUTHENTICATION_FAILED;
+            return SendCode.AUTHENTICATION_FAILED;
         }
 
-        //Auth.SendCode(phone, null, null);
+        //Auth.sendCode(phone, null, null);
 
 
 
@@ -166,7 +166,7 @@ public class IMService extends Service implements IAppManager, IUpdateData {
         //Log.d(TAG, Helpers.byteArrayToHex(answer));
         //imService.sendPacket(auth_sendCode.toData().toEncryptedMessage().toPacket());
 
-        return Login.AUTHENTICATION_OK;
+        return SendCode.AUTHENTICATION_OK;
     }
 
     @Override

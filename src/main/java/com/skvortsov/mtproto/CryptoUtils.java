@@ -1,5 +1,7 @@
 package com.skvortsov.mtproto;
 
+import android.util.Log;
+
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
 import java.security.NoSuchAlgorithmException;
@@ -9,27 +11,45 @@ import java.security.NoSuchAlgorithmException;
  */
 public class CryptoUtils {
 
+    public static final String TAG = "CryptoUtils";
+
     public static byte[] encrypt_p_q_inner_data(byte[] p_q_inner_data) throws NoSuchAlgorithmException {
 
         //!!!!!!!!
         ByteBuffer bb_data_with_hash = ByteBuffer.allocate(255);
         byte[] sha1 = Helpers.SHA1(p_q_inner_data);
+        Log.w(TAG, "sha1 = " + Helpers.bytesToHex(sha1));
+
         bb_data_with_hash.put(sha1);
         bb_data_with_hash.put(p_q_inner_data);
         byte[] data_with_hash = bb_data_with_hash.array();
 
+        for(int i = 116; i<255; i++){
+            data_with_hash[i] = (byte)1;
+        }
 
         BigInteger e = new BigInteger("010001", 16);
         BigInteger r = new BigInteger(1, data_with_hash);
         BigInteger m = new BigInteger("C150023E2F70DB7985DED064759CFECF0AF328E69A41DAF4D6F01B538135A6F91F8F8B2A0EC9BA9720CE352EFCF6C5680FFC424BD634864902DE0B4BD6D49F4E580230E3AE97D95C8B19442B3C0A10D8F5633FECEDD6926A7F6DAB0DDB7D457F9EA81B8465FCD6FFFEED114011DF91C059CAEDAF97625F6C96ECC74725556934EF781D866B34F011FCE4D835A090196E9A5F0E4449AF7EB697DDB9076494CA5F81104A305B6DD27665722C46B60E5DF680FB16B210607EF217652E60236C255F6A28315F4083A96791D7214BF64C1DF4FD0DB1944FB26A2A57031B32EEE64AD15A8BA68885CDE74A5BFC920F6ABF59BA5C75506373E7130F9042DA922179251F",16);
+
+        Log.w(TAG, "e = " + Helpers.bytesToHex(e.toByteArray()));
+        Log.w(TAG, "e as BigInteger = " + e.toString());
+        Log.w(TAG, "r = " + Helpers.bytesToHex(r.toByteArray()));
+        Log.w(TAG, "r as BigInteger = " + r.toString());
+        Log.w(TAG, "m = " + Helpers.bytesToHex(m.toByteArray()));
+        Log.w(TAG, "m as BigInteger = " + m.toString());
+
         BigInteger s = r.modPow(e, m);
         byte[] array = s.toByteArray();
+
+
 
         if (array[0] == 0) {
             byte[] tmp = new byte[array.length - 1];
             System.arraycopy(array, 1, tmp, 0, tmp.length);
             array = tmp;
         }
+
 
         return array;
     }

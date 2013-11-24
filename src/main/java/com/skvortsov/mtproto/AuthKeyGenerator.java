@@ -48,6 +48,8 @@ public class AuthKeyGenerator extends AsyncTask<Void, Void, Boolean> {
             Constructor req_pq = book.getConstructorByPredicate("req_pq").clone();
             req_pq.getParamByName("nonce").setData(Helpers.random_bytes(16));
 
+            Log.i(TAG, req_pq.toMessage().toPacket().toString());
+
             Log.i(TAG, "doInBackground: 3) Отправляем req_pq Получаем resPQ.");
             Constructor resPQ = MessageManager.parse(socketOperator.sendHttpRequest(
                     req_pq.toMessage().array())).toConstructor();
@@ -67,16 +69,33 @@ public class AuthKeyGenerator extends AsyncTask<Void, Void, Boolean> {
             Log.i(TAG, "doInBackground: 6) Создаем p_q_inner_data.");
             Constructor p_q_inner_data = book.getConstructorByPredicate("p_q_inner_data").clone();
             p_q_inner_data.getParamByName("pq").setData(resPQ.getParamByName("pq").getData());
+            Log.w(TAG, "pq = " + Helpers.bytesToHex((byte[]) resPQ.getParamByName("pq").getData()));
+
             p_q_inner_data.getParamByName("p").setData(p.toByteArray());
+            Log.w(TAG, "p = " + Helpers.bytesToHex(p.toByteArray()));
+
             p_q_inner_data.getParamByName("q").setData(q.toByteArray());
+            Log.w(TAG, "p = " + Helpers.bytesToHex(q.toByteArray()));
+
             p_q_inner_data.getParamByName("nonce").setData(resPQ.getParamByName("nonce").getData());
+            Log.w(TAG, "nonce = " + Helpers.bytesToHex((byte[]) p_q_inner_data.getParamByName("nonce").getData()));
+
             p_q_inner_data.getParamByName("server_nonce").setData(resPQ.getParamByName("server_nonce").getData());
+            Log.w(TAG, "server_nonce = " + Helpers.bytesToHex((byte[]) p_q_inner_data.getParamByName("server_nonce").getData()));
+
             p_q_inner_data.getParamByName("new_nonce").setData(Helpers.random_bytes(32));
+            Log.w(TAG, "new_nonce = " + Helpers.bytesToHex((byte[]) p_q_inner_data.getParamByName("new_nonce").getData()));
+
             Log.w(TAG, "p_q_inner_data length = " + SerializationUtils.calcSize(p_q_inner_data));
 
+
             Log.i(TAG, "doInBackground: 7) Шифруем p_q_inner_data.");
-            byte[] encrypted_p_q_inner_data = CryptoUtils.encrypt_p_q_inner_data(SerializationUtils.serialize(p_q_inner_data));
+            byte[] ser = SerializationUtils.serialize(p_q_inner_data);
+            Log.w(TAG, "ser = " + Helpers.bytesToHex(ser));
+
+            byte[] encrypted_p_q_inner_data = CryptoUtils.encrypt_p_q_inner_data(ser);
             Log.w(TAG, "encrypted_p_q_inner_data length = " + encrypted_p_q_inner_data.length);
+            Log.w(TAG, "encrypted_p_q_inner_data = " + Helpers.bytesToHex(encrypted_p_q_inner_data));
 
             Log.i(TAG, "doInBackground: 8) Создаем req_DH_params.");
             Constructor req_DH_params = book.getConstructorByPredicate("req_DH_params").clone();

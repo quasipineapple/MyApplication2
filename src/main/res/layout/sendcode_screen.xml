@@ -49,18 +49,12 @@
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
-                android:text="New Button"
+                android:text="Next"
 
                 android:id="@+id/button222"
                 />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:text="help.getConfig"
 
-            android:id="@+id/button333"
-            />
 	</LinearLayout>
 
 </LinearLayout>

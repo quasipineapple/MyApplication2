@@ -1,7 +1,7 @@
-package com.skvortsov.mtproto;
+package com.skvortsov.mtproto.filter;
 
 import com.skvortsov.mtproto.Constructor;
-import com.skvortsov.mtproto.interfaces.ConstructorFilter;
+import com.skvortsov.mtproto.filter.ConstructorFilter;
 
 /**
  * Created by skvortsov on 10/10/13.

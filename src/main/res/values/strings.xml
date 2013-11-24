@@ -35,7 +35,7 @@
     <string name="your_phone">Your phone</string>
 
 
-    <string name="username">Username:</string>
+    <string name="first_name">Username:</string>
     <string name="password">Password:</string>
     <string name="login">Login</string>
     <string name="cancel">Cancel</string>
@@ -47,9 +47,9 @@
     <string name="not_connected_to_service">Not connected to the service and
         this is not supposed to happened so please inform this situation to
         ahmetmermerkaya@hotmail.com</string>
-    <string name="fill_both_username_and_password">Please fill both username and password</string>
+    <string name="fill_both_username_and_password">Please fill both first_name and password</string>
     <string name="make_sure_username_and_password_correct">Please make sure that
-        your username and password correct</string>
+        your first_name and password correct</string>
     <string name="qwe">123</string>
     <string name="user_offline">This user is offline</string>
     <string name="sign_up">Sign up</string>
@@ -60,14 +60,14 @@
     <string name="signup_fill_all_fields">Please fill all fields</string>
     <string name="signup_type_same_password_in_password_fields">Type same password in password fields</string>
     <string name="signup_failed">Sign up failed because of unknown reason</string>
-    <string name="signup_username_crashed">Your username have been already taken, please try another username</string>
+    <string name="signup_username_crashed">Your first_name have been already taken, please try another first_name</string>
     <string name="signup_successfull">Your registration is completed successfully,\n you can login now </string>
     <string name="username_and_password_length_short">Username and password length must be at least 5</string>
     <string name="add_new_friend">Add new friend</string>
     <string name="no_friend">You have no friend,\n you can add new friends by menu</string>
     <string name="add">Add</string>
     <string name="request_sent">Your request has been sent</string>
-    <string name="type_friend_username">Please type your friend username</string>
+    <string name="type_friend_username">Please type your friend first_name</string>
     <string name="new_friend_request_exist">New friend request</string>
     <string name="approve_selected_friends">Approve Selecteds and Discard Others</string>
     <string name="not_connected_to_network">There is no available connected network</string>
@@ -198,7 +198,7 @@
     <string name="add_account">Add <xliff:g id="account">%1$s</xliff:g> account</string>
 
     <!-- These strings are displayed on the account setup page. -->
-    <!-- The username label. May be overrided by the plugin.-->
+    <!-- The first_name label. May be overrided by the plugin.-->
     <string name="label_username">Username:</string>
     <!-- The password label. -->
     <string name="label_password">Password:</string>
@@ -476,8 +476,8 @@
     <string name="message_queue_full">The message queue is full.</string>
     <!-- Error message for when the domain is not supported by the server.-->
     <string name="domain_not_supported">The server does not support forwarding to the domain.</string>
-    <!-- Error message for a bad username error.-->
-    <string name="unknown_user">The username you entered is not recognized.</string>
+    <!-- Error message for a bad first_name error.-->
+    <string name="unknown_user">The first_name you entered is not recognized.</string>
     <!-- Error message for when the user is blocked by the recipient.-->
     <string name="recipient_blocked_the_user">Sorry, you are blocked by the user.</string>
     <!-- Error message for session expired error.-->
@@ -494,6 +494,9 @@
     <string name="loginProgressMessage">Connecting and validating......</string>
     <string name="serviceConfigTitle">Server Configuration</string>
     <string name="server_config">Server Config</string>
+    <string name="sendCodeProgressMessage">Connecting and validating......</string>
+    <string name="your_code">Your code</string>
+    <string name="your_name">Your name</string>
 
     <!-- Smiley names. May be overrided by the plugin. -->
     <string-array name="default_smiley_names">

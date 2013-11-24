@@ -1,4 +1,4 @@
-package com.skvortsov.mtproto.interfaces;
+package com.skvortsov.mtproto.filter;
 
 import com.skvortsov.mtproto.Constructor;
 

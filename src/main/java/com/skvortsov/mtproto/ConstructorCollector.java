@@ -1,7 +1,7 @@
 package com.skvortsov.mtproto;
 
 import com.skvortsov.mtproto.communication.PacketReader;
-import com.skvortsov.mtproto.interfaces.ConstructorFilter;
+import com.skvortsov.mtproto.filter.ConstructorFilter;
 
 import java.util.LinkedList;
 
@@ -81,5 +81,14 @@ public class ConstructorCollector {
             return resultQueue.removeLast();
         }
 
+    }
+
+    public void cancel() {
+
+        // If the packet collector has already been cancelled, do nothing.
+        if (!cancelled) {
+            cancelled = true;
+            packetReader.cancelPacketCollector(this);
+        }
     }
 }

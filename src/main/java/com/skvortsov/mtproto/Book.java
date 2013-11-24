@@ -4,8 +4,15 @@ package com.skvortsov.mtproto;
 import java.util.List;
 
 public class Book{
+
+
+
    	private List<Constructor> constructors;
    	private List<Method> methods;
+
+
+
+
 
  	public List<Constructor> getConstructors(){
 		return this.constructors;

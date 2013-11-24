@@ -106,7 +106,7 @@ public class Helpers {
         return HexToString(bytesToHex(hex));
     }
 
-    public static String HexToString(String hex){
+    private static String HexToString(String hex){
         return HexStringConverter.getHexStringConverterInstance().hexToString(hex);
     }
 
@@ -169,7 +169,7 @@ public class Helpers {
         return byteArrayToHex(array, 0, array.length);
     }
 
-    public static String byteArrayToHex(byte[] array, int offset, int length) {
+    private static String byteArrayToHex(byte[] array, int offset, int length) {
         StringBuilder sb = new StringBuilder();
 
         sb.append("\n---\n");

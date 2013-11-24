@@ -2,15 +2,15 @@ package com.skvortsov.mtproto.communication;
 
 import com.skvortsov.mtproto.Constructor;
 import com.skvortsov.mtproto.ConstructorCollector;
+import com.skvortsov.mtproto.Helpers;
 import com.skvortsov.mtproto.Packet;
-import com.skvortsov.mtproto.interfaces.ConstructorFilter;
+import com.skvortsov.mtproto.filter.ConstructorFilter;
 import com.skvortsov.mtproto.mtp_api.Auth;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
-import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -38,8 +38,7 @@ public class MTPConnection {
     int connectionCounterValue = connectionCounter.getAndIncrement();
     public boolean connected = false;
     public boolean authenticated = false;
-    private Constructor phone_registered;
-    private String phone_code_hash;
+
 
     public void connect() throws Exception {
 
@@ -47,49 +46,21 @@ public class MTPConnection {
 
         //if(connected){
 
-        //    login(getConfiguration().getPhone());
+        //    auth_sendCode(getConfiguration().getPhone());
         //}
 
-
     }
 
-    public synchronized void login() throws Exception {
-
-        if(!connected){
-            throw new IllegalStateException("Not connected to server.");
-        }
-        if(authenticated){
-            throw new IllegalStateException("Already logged in to server.");
-        }
-
-        Constructor response;
-
-        response = new Auth(this).SendCode("+79056624155", 0, 1463, "437a55dcaee748fc1596a1bb5e6ca7db");
-
-        if(response != null){
-            System.out.println(response.toString());
-            this.phone_registered = (Constructor)response.getParamByName("phone_registered").getData();
-            this.phone_code_hash = (String)response.getParamByName("phone_code_hash").getData();
-        }
+    public synchronized void auth_sendCode() throws Exception {}
 
 
-        //authenticated = true;
-
-
-
-    }
 
     private void connectUsingConfiguration(ConnectionConfiguration config) throws Exception {
 
         this.host = config.getHost();
         this.port = config.getPort();
 
-        try {
-            this.socket = new Socket(host, port);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        this.socket = new Socket(host, port);
 
         initConnection();
 
@@ -251,4 +222,6 @@ public class MTPConnection {
 
         return packetReader.createConstructorCollector(filter);
     }
+
+
 }

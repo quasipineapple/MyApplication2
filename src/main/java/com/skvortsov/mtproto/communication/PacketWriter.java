@@ -45,8 +45,7 @@ public class PacketWriter {
                 Packet packet = nextPacket();
                 if(packet != null){
                     synchronized (writer){
-                        System.out.println(packet.getSize());
-                        System.out.println(packet.toString());
+                        System.out.println("Write(" + packet.getSize() + ") " + packet.toString());
                         writer.write(packet.array());
                         writer.flush();
                     }

@@ -1,20 +1,22 @@
 package com.skvortsov.mtproto.communication;
 
+
+import com.google.common.io.LittleEndianDataInputStream;
 import com.skvortsov.mtproto.BookManager;
 import com.skvortsov.mtproto.ConnectionListener;
 import com.skvortsov.mtproto.Constructor;
 import com.skvortsov.mtproto.ConstructorCollector;
 import com.skvortsov.mtproto.ConstructorListener;
-import com.skvortsov.mtproto.ConstructorPredicateFilter;
 import com.skvortsov.mtproto.Data;
-import com.skvortsov.mtproto.DataListener;
+import com.skvortsov.mtproto.Helpers;
 import com.skvortsov.mtproto.Msg;
 import com.skvortsov.mtproto.Packet;
 import com.skvortsov.mtproto.PacketManager;
-import com.skvortsov.mtproto.interfaces.ConstructorFilter;
+import com.skvortsov.mtproto.SessionManager;
+import com.skvortsov.mtproto.filter.ConstructorFilter;
 
+import java.io.BufferedInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.security.NoSuchAlgorithmException;
@@ -39,14 +41,14 @@ public class PacketReader {
 
     private Thread readerThread;
     private MTPConnection connection;
-    private InputStream reader;
+    private LittleEndianDataInputStream reader;
     private ExecutorService listenerExecutor;
     private boolean done;
     private Semaphore connectionSemaphore;
     private Collection<ConstructorCollector> collectors = new ConcurrentLinkedQueue<ConstructorCollector>();
 
-    protected final Map<ConstructorListener, ConstructorListenerWrapper> listeners =
-            new ConcurrentHashMap<ConstructorListener, ConstructorListenerWrapper>();
+    protected final Map<ConstructorListener, ListenerWrapper> listeners =
+            new ConcurrentHashMap<ConstructorListener, ListenerWrapper>();
     protected final Collection<ConnectionListener> connectionListeners =
             new CopyOnWriteArrayList<ConnectionListener>();
 
@@ -71,7 +73,7 @@ public class PacketReader {
         readerThread.setName("MTProto Packet Reader (" + connection.connectionCounterValue + ")");
         readerThread.setDaemon(true);
 
-        reader = connection.getReader();
+        reader = new LittleEndianDataInputStream(new BufferedInputStream(connection.getReader()));
 
         listenerExecutor = Executors.newSingleThreadExecutor(
                 new ThreadFactory() {
@@ -115,33 +117,27 @@ public class PacketReader {
 
     private void parsePackets(Thread thread){
 
-        int read;
-        byte[] data;
-        byte[] buffer = new byte[4096];
         try {
-            while ((read = reader.read(buffer)) >= 0 && thread == readerThread && !done){
-                data = new byte[read];
-                System.arraycopy(buffer, 0, data, 0, read);
-                if(read > 0){
-                    processPacket(PacketManager.parse(data));
+            while (thread == readerThread && !done){
+
+                for(int segSize; (segSize = reader.readInt()) > 0;) {
+                    byte[] bytes = new byte[segSize - 4];
+                    reader.readFully(bytes);
+                    processPacket(PacketManager.parse2(segSize, bytes));
                 }
             }
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             //e.printStackTrace();
             if(!done){
                 notifyConnectionError(e);
             }
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
         }
 
 
     }
 
-    private void notifyConnectionError(IOException e) {
+    private void notifyConnectionError(Exception e) {
 
         done = true;
         e.printStackTrace();
@@ -149,45 +145,10 @@ public class PacketReader {
 
         //TODO: Notify connection listeners of the error.
 
-
-
-
-
     }
 
 
-    private void addListener() {
 
-
-        ConstructorFilter constructorFilter = new ConstructorPredicateFilter("msg_container");
-
-        ConstructorListener constructorListener = new ConstructorListener() {
-            @Override
-            public void processConstructor(Constructor constructor) {
-                List<Msg> msg_need_ack = new ArrayList<Msg>();
-
-                Long msgc_id = ByteBuffer.wrap(d.getMessage_id()).order(ByteOrder.LITTLE_ENDIAN).getLong();
-
-                for(Msg m: d.toMsgArray()){
-
-                    Long m_id = ByteBuffer.wrap(m.getMsg_id()).order(ByteOrder.LITTLE_ENDIAN).getLong();
-                    Constructor c = m.toConstructor();
-
-                    //processConstructor(c);
-
-                    //System.out.println("Msg (" + m_id + ") " + c.toString());
-                    if(need_ack(m)){
-                        msg_need_ack.add(m);
-                    }
-                }
-
-                send_msgs_ack(msg_need_ack);
-            }
-        }
-
-
-
-    }
 
     private void processPacket(Packet packet) throws NoSuchAlgorithmException, CloneNotSupportedException, IOException {
 
@@ -195,26 +156,35 @@ public class PacketReader {
           return;
         }
 
-        System.out.println(packet.getSize());
-        System.out.println(packet.toString());
+        System.out.println("Read(" + packet.getSize() + ") " + packet.toString());
 
-        Data data = packet.toEncryptedMessage().toData();
-        Constructor constructor = data.toConstructor();
+        Data data  = packet.toEncryptedMessage().toData();
 
-        for(ConstructorCollector collector : collectors){
-            collector.processConstructor(constructor);
-        }
+        if(data.isMsgContainer()){
+            List<Msg> msg_need_ack = new ArrayList<Msg>();
 
-        listenerExecutor.submit(new ConstructorListenerNotification(constructor));
+            //Long msgc_id = ByteBuffer.wrap(data.getMessage_id()).order(ByteOrder.LITTLE_ENDIAN).getLong();
 
-        /*
-        if(d.isMsgContainer()){
+            for(Msg m: data.toMsgArray()){
 
+                //Long m_id = ByteBuffer.wrap(m.getMsg_id()).order(ByteOrder.LITTLE_ENDIAN).getLong();
+                //Constructor c = m.toConstructor();
+
+                processConstructor(m.toConstructor());
+
+                //System.out.println("Msg (" + m_id + ") " + c.toString());
+                if(need_ack(m)){
+                    msg_need_ack.add(m);
+                }
+            }
+
+            send_msgs_ack(msg_need_ack);
 
         }else{
-            Constructor c = d.toConstructor();
+            Constructor c = data.toConstructor();
 
             processConstructor(c);
+            System.out.println(c.toString());
             if(c.getPredicate().equals("bad_server_salt")){
                 SessionManager.getS().setSalt(
                         Helpers.LongTobyteArray(
@@ -223,7 +193,7 @@ public class PacketReader {
                 );
 
             }
-        }*/
+        }
 
     }
 
@@ -248,7 +218,10 @@ public class PacketReader {
                 ByteBuffer.wrap(dd.getMessage_id()).order(ByteOrder.LITTLE_ENDIAN).getLong() + ") " +
                 "for msg_ids " + Arrays.toString(msgs_ids));
 
+        //ConstructorCollector collector = connection.createConstructorCollector(null);
         connection.sendPacket(dd.toEncryptedMessage().toPacket());
+
+        //System.out.println(collector.nextResult(MTPConfiguration.getPacketReplyTimeout()));
         /*socketOperator.sendHttpRequest(
                 dd.toEncryptedMessage().array());*/
         //Data dd2 = EncryptedMessageManager.parse2(answer).toData();
@@ -260,6 +233,11 @@ public class PacketReader {
 
     private void processConstructor(Constructor constructor){
 
+        for(ConstructorCollector collector : collectors){
+            collector.processConstructor(constructor);
+        }
+
+        listenerExecutor.submit(new ListenerNotification(constructor));
     }
 
     private boolean need_ack(Msg m) throws CloneNotSupportedException {
@@ -273,23 +251,7 @@ public class PacketReader {
     }
 
     public void shutdown() {
-        // Notify connection listeners of the connection closing if done hasn't already been set.
-        if (!done) {
-            for (ConnectionListener listener : connectionListeners) {
-                try {
-                    listener.connectionClosed();
-                }
-                catch (Exception e) {
-                    // Cath and print any exception so we can recover
-                    // from a faulty listener and finish the shutdown process
-                    e.printStackTrace();
-                }
-            }
-        }
-        done = true;
 
-        // Shut down the listener executor.
-        listenerExecutor.shutdown();
     }
 
     public ConstructorCollector createConstructorCollector(ConstructorFilter filter) {
@@ -300,29 +262,32 @@ public class PacketReader {
         return collector;
     }
 
+    public void cancelPacketCollector(ConstructorCollector constructorCollector) {
+        collectors.remove(constructorCollector);
+    }
 
-    private class ConstructorListenerNotification implements Runnable {
+
+    private class ListenerNotification implements Runnable {
 
         private Constructor constructor;
 
-        public ConstructorListenerNotification(Constructor constructor) {
+        public ListenerNotification(Constructor constructor) {
             this.constructor = constructor;
         }
 
         @Override
         public void run() {
-            for(ConstructorListenerWrapper listenerWrapper : listeners.values()){
+            for(ListenerWrapper listenerWrapper : listeners.values()){
                 listenerWrapper.notifyListener(constructor);
             }
         }
     }
 
-    private class ConstructorListenerWrapper {
-
+    private class ListenerWrapper {
         private ConstructorListener constructorListener;
         private ConstructorFilter constructorFilter;
 
-        public ConstructorListenerWrapper(ConstructorListener constructorListener, ConstructorFilter constructorFilter) {
+        public ListenerWrapper(ConstructorListener constructorListener, ConstructorFilter constructorFilter) {
             this.constructorListener = constructorListener;
             this.constructorFilter = constructorFilter;
         }
@@ -332,6 +297,5 @@ public class PacketReader {
                 constructorListener.processConstructor(constructor);
             }
         }
-
     }
 }

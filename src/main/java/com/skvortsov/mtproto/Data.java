@@ -129,13 +129,13 @@ public class Data {
 
     public Msg[] toMsgArray() {
         //Log.i(TAG, Helpers.byteArrayToHex(this.getMessage_data()));
-        Msg_container msgc = Msg_containerManager.parse(this.getMessage_data());
-        int bl = ByteBuffer.wrap(msgc.getCount_elements()).getInt();
+        Msg_container msg_container = Msg_containerManager.parse(this.getMessage_data());
+        int bl = ByteBuffer.wrap(msg_container.getCount_elements()).getInt();
         //Log.w(TAG, String.valueOf(bl));
         Msg[] mm = new Msg[bl];
         int i = 0;
         //Log.w(TAG, String.valueOf(msgc.getMsgs().size()));
-        for(Msg m : msgc.getMsgs()){
+        for(Msg m : msg_container.getMsgs()){
             mm[i] = m;
             i++;
         }

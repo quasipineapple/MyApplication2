@@ -50,7 +50,7 @@ public class ServerConfig extends Activity {
         public void onClick(View v) {
             
             Intent intent = new Intent();
-            intent.setClass(ServerConfig.this, Login.class);
+            intent.setClass(ServerConfig.this, SendCode.class);
             startActivity(intent);
         }
     };
@@ -89,7 +89,7 @@ public class ServerConfig extends Activity {
                 toast.show();
                 Log.v(LOG_TAG, "Server configuration updated!");
                 Intent intent = new Intent();
-                intent.setClass(ServerConfig.this, Login.class);
+                intent.setClass(ServerConfig.this, SendCode.class);
                 startActivity(intent);
 
             } catch (NumberFormatException e) {

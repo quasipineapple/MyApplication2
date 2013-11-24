@@ -2,7 +2,7 @@ package com.skvortsov.mtproto.tools;
 
 import android.util.Log;
 
-import com.skvortsov.mtproto.interfaces.IUpdateData;
+
 import com.skvortsov.mtproto.types.FriendInfo;
 import com.skvortsov.mtproto.types.MessageInfo;
 import com.skvortsov.mtproto.types.STATUS;
