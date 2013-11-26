@@ -11,7 +11,7 @@ public class Method implements Cloneable{
    	private String method;
    	private List<Param> params;
    	private String type;
-
+    private static final String TAG = "Method: ";
  	public String getId(){
 		return this.id;
 	}
@@ -73,8 +73,11 @@ public class Method implements Cloneable{
         d.setMessage_id(ByteBuffer.allocate(8).order(ByteOrder.LITTLE_ENDIAN).putLong(unixTime).array());
         d.setSeq_no(ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN).putInt(SessionManager.getS().getNextSeqNo()).array());
         d.setMessage_data_length(ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN).putInt(SerializationUtils.calcSize(this)).array());
+        System.out.println(TAG + "Message_data_length: " + Helpers.bytesToHex(d.getMessage_data_length()));
         d.setMessage_data(SerializationUtils.serialize(this));
+        System.out.println(TAG + "Message_data: " + Helpers.bytesToHex(d.getMessage_data()));
 
+        System.out.println(TAG + this.getMethod() + "(" + d.array().length + ")" + ": " + Helpers.bytesToHex(d.array()));
 
         SessionManager.saveSeq_no();
 

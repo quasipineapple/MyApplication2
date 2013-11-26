@@ -239,9 +239,12 @@ public class AuthKeyGenerator extends AsyncTask<Void, Void, Boolean> {
             Log.i(TAG, "onPostExecute: Completed with an Error.");
         } else {
             SessionManager.getS().setAuth_key(auth_key);
+            Log.i(TAG, "doInBackground: auth_key " + Helpers.bytesToHex(auth_key));
             SessionManager.getS().setNew_nonce(new_nonce);
+
             SessionManager.getS().setServer_nonce(server_nonce);
             SessionManager.getS().setAuth_key_id(auth_key_id);
+            Log.i(TAG, "doInBackground: auth_key_id " + Helpers.bytesToHex(auth_key_id));
             SessionManager.getS().setSession_id(Helpers.random_bytes(8));
             SessionManager.getS().setSalt(salt);
             SessionManager.saveSession();

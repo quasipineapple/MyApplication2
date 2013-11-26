@@ -6,6 +6,7 @@ import java.nio.charset.CharsetEncoder;
 
 
 public class UTF8 {
+    private static final String TAG = "UTF8: ";
     public static final Charset CHARSET = Charset.forName("UTF-8");
     private static final CharsetEncoder ENCODER = UTF8.CHARSET.newEncoder();
 
@@ -29,6 +30,8 @@ public class UTF8 {
             }
         }
 
+        System.out.println(TAG + "sequence.toString(): " + sequence.toString());
+        System.out.println(TAG + "count: " + count);
         return count;
     }
 

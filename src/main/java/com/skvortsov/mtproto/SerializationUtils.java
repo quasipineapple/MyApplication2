@@ -388,6 +388,7 @@ public class SerializationUtils {
 
     public static byte[] serialize(Method result) {
         byte[] serialized = new byte[calcSize(result)];
+        System.out.println(TAG + "serialized.length: " + serialized.length);
         ByteBuffer buffer = ByteBuffer.wrap(serialized);
         buffer.order(ByteOrder.LITTLE_ENDIAN);
 

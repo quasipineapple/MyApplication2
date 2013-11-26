@@ -101,8 +101,11 @@ public class Data {
         EncryptedMessage em = new EncryptedMessage();
 
         em.setAuth_key_id(SessionManager.getS().getAuth_key_id());
+        System.out.println(TAG + "SessionManager.getS().getAuth_key_id(): " + Helpers.bytesToHex(SessionManager.getS().getAuth_key_id()));
+
         //2) msgKey
         byte[] mkey = new BigInteger(1, Helpers.substr(Helpers.SHA1(this.array()), 4, 20)).toByteArray();
+        System.out.println(TAG + "mkey: " + Helpers.bytesToHex(mkey));
         //byte[] mkey = Arrays.copyOfRange(Helpers.SHA1(this.array()), 4, 20);
 
         if (mkey[0] == 0) {
@@ -116,6 +119,7 @@ public class Data {
 
         em.setEncrypted_data(CryptoUtils.encrypt_data(this, SessionManager.getS().getAuth_key(), em.getMsgKey()));
         //em.setEncrypted_data(CryptoUtils.encrypt_data(this, SessionManager.getS().getAuth_key(), mkey));
+        System.out.println(TAG + "SessionManager.getS().getAuth_key(): " + Helpers.bytesToHex(SessionManager.getS().getAuth_key()));
 
         return em;
     }
