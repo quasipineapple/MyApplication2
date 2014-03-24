@@ -5,6 +5,7 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
 public class AES_IGE {
+
     private byte[] key;
     private byte[] iv_1, iv_2;
 
